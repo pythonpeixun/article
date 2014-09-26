@@ -19,7 +19,7 @@
 [迪艾姆python培训_python培训_函数抽象.flv](http://v.youku.com/v_show/id_XNTI1NTIyODE2.html)
 
 
-[迪艾姆python培训_python培训_类抽象.flv]()
+迪艾姆python培训_python培训_类抽象.flv
 
 
 [迪艾姆python培训_python培训_嵌套函数.flv](http://www.tudou.com/programs/view/rhY9GCpr1cc)
