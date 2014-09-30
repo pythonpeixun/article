@@ -69,3 +69,5 @@ Python 核心编程 第二版
 #费用：收费 5000元  
   
 #咨询:qq:1465376564 电话：18610508486 黄老师 
+
+#[点击黄哥python培训试看视频播放地址](https://github.com/pythonpeixun/article/blob/master/python_shiping.md)
