@@ -1,5 +1,5 @@
 #将python2中汉字会出现乱码的事一次性说清楚
-	[https://github.com/pythonpeixun/article/blob/master/index.md](python远程视频培训班)
+	[python远程视频培训班](https://github.com/pythonpeixun/article/blob/master/index.md)
 ##为了让初学者，不再为python2中汉字出现乱码的事烦恼！
 
 ###请看python培训黄哥细细道来：
@@ -41,4 +41,4 @@
 	可以encode('utf-8')或encode('gbk')
 
 总结：凡是报错信息中出现的错误包含“ASCII”，就是汉字编码的问题。
-[https://github.com/pythonpeixun/article/blob/master/python_shiping.md](点击黄哥python培训试看视频播放地址)
+[点击黄哥python培训试看视频播放地址](https://github.com/pythonpeixun/article/blob/master/python_shiping.md)
