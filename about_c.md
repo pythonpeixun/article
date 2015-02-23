@@ -26,3 +26,16 @@ https://llvm.org/svn/llvm-project/cfe/trunk/INSTALL.txt
 	3、Linux下有很多免费开源软件，可以使用和学习。
 	其它
 	。。。。。。。。。。。。。。。。。。。。。。。
+	
+推荐看以下书：
+
+	《C语言入门经典（第5版）》
+
+	《C语言程序设计：现代方法（第2版）》
+
+	《C Primer Plus（第5版 中文版）》
+	《C程序设计语言（第2版·新版） 》
+	《C和指针 POINTERS ON C 》
+	还有
+	《C陷阱与缺陷》
+	《C专家编程Expert C Programming Deep C Secrets》
