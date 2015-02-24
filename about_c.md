@@ -39,3 +39,7 @@ https://llvm.org/svn/llvm-project/cfe/trunk/INSTALL.txt
 	还有
 	《C陷阱与缺陷》
 	《C专家编程Expert C Programming Deep C Secrets》
+	
+##好资料下载
+
+[华为C语言编程规范.pdf](华为C语言编程规范.pdf)
