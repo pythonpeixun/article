@@ -43,3 +43,5 @@ https://llvm.org/svn/llvm-project/cfe/trunk/INSTALL.txt
 ##好资料下载
 
 [华为C语言编程规范.pdf](华为C语言编程规范.pdf)
+
+[c语言从入门到精通远程视频培训](https://github.com/pythonpeixun/article/blob/master/c_course.md)
