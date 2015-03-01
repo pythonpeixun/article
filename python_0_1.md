@@ -25,7 +25,7 @@
 	python上海周末培训班 
 	https://github.com/pythonpeixun/article/blob/master/shanghai_weekend.md 
 	咨询:qq:1465376564 黄哥所写
-	做这个练习题的思路是：做这个练习题的思路是：先用一个n次的循环，将0或1添加到一个list中，
+	做这个练习题的思路是：先用一个n次的循环，将0或1添加到一个list中，
       最后用一个循环加一个变量来计数，统计连续相等数字1或0的出现次数。
 
 	"""
