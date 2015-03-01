@@ -31,22 +31,25 @@
 	"""
 
 	input_lst = []
-	dict_num = {}
+	total_num = []
 	n = int(raw_input("please input n:\n").strip())
 	for i in xrange(n):
 	    number = int(raw_input("please input number:\n").strip())
 	    input_lst.append(number)
-	    
-	length = len(input_lst)   
-	   
-	for i, item in enumerate(input_lst):
-	    if  0 < i < length:
-	        if input_lst[i] == input_lst[i-1]:
-	            if item in dict_num:
-	                dict_num[item] += 1
-	        else:
-	                dict_num[item] = 1        
-	print input_lst    
-	print max(dict_num.values())
+
+	length = len(input_lst)
+
+	j = 1
+	for i in range(length - 1):
+	    if input_lst[i] == input_lst[i+1]:
+	        j += 1
+	    else:
+	        total_num.append(j)
+	        j = 1
+	total_num.append(j)
+
+	print input_lst
+	print total_num
+	print max(total_num)
 	
 
