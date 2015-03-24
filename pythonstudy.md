@@ -66,9 +66,9 @@
     
     for thief in ['a','b','c','d']:
  
-      sum = (thief != 'a') + (thief == 'c') + (thief == 'd') + (thief !='d')
-      if sum == 3:
-          print "小偷是：%s " % thief
+        sum = (thief != 'a') + (thief == 'c') + (thief == 'd') + (thief !='d')
+        if sum == 3:
+            print "小偷是：%s " % thief
           
  
 
