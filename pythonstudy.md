@@ -64,11 +64,13 @@
     
     """
     
-    for xiaotu in ['a','b','c','d']:
-    
-          sum = (xiaotu != 'a') + (xiaotu == 'c') + (xiaotu == 'd') + (xiaotu !='d')
-          if sum == 3:
-              print "小偷是：%s " % xiaotu
+    for thief in ['a','b','c','d']:
+ 
+      sum = (thief != 'a') + (thief == 'c') + (thief == 'd') + (thief !='d')
+      if sum == 3:
+          print "小偷是：%s " % thief
+          
+ 
 
 总结：
      学习python编程，先学会过程式编程，再过度到面向对象的编程范式。
