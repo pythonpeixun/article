@@ -19,5 +19,7 @@
 
 ##[黄哥python视频培训课程介绍](https://github.com/pythonpeixun/article/blob/master/index.md)
 
+##[点击黄哥python培训试看视频播放地址](https://github.com/pythonpeixun/article/blob/master/python_shiping.md)
 
 ##联系方式：咨询qq:1465376564 电话：18610508486 黄老师
+
