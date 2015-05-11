@@ -16,6 +16,9 @@
 
 #特别提示：动机不单纯者不要参加，需要完成作业。(不问问题，不写作业者，就是动机不单纯者)
 
+#海外留学生不能参加团购，请报名参加正常的视频培训
+
+
 
 ##[黄哥python视频培训课程介绍](https://github.com/pythonpeixun/article/blob/master/index.md)
 
