@@ -66,7 +66,7 @@ Python 核心编程 第二版
  
 
 
-#费用：  5000元
+#费用：  5000元 [欢迎参加团购](https://github.com/pythonpeixun/article/blob/master/tuangou.md)
   
 #咨询:qq:1465376564 电话：18610508486 黄老师 
 
