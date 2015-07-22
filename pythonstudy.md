@@ -80,8 +80,10 @@
 
 [迪艾姆python培训_python编程思路－  ]
 (http://v.youku.com/v_show/id_XNTY0MDA5MDMy.html)
+
 [迪艾姆python培训_python编程思路二  ]
 (http://v.youku.com/v_show/id_XNTY0MDE1NzA0.html)
+ 
 [python爬虫之采集搜素引擎联想词 ] 
 (http://www.tudou.com/programs/view/SXgshk-sYbw/)
 
