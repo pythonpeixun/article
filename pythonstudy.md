@@ -77,12 +77,12 @@
      学会函数抽象、类抽象。一步一步养成计算思维、学会解决问题的方法、编程思路。
      这个需要一个过程，也不要操之过急。
      看一下这些视频，可能对你有些帮助。
-迪艾姆python培训_python编程思路－  
-http://v.youku.com/v_show/id_XNTY0MDA5MDMy.html  
-迪艾姆python培训_python编程思路二  
-http://v.youku.com/v_show/id_XNTY0MDE1NzA0.html  
-python爬虫之采集搜素引擎联想词  
-http://www.tudou.com/programs/view/SXgshk-sYbw/  
 
+[迪艾姆python培训_python编程思路－  ]
+(http://v.youku.com/v_show/id_XNTY0MDA5MDMy.html)
+[迪艾姆python培训_python编程思路二  ]
+(http://v.youku.com/v_show/id_XNTY0MDE1NzA0.html)
+[python爬虫之采集搜素引擎联想词 ] 
+(http://www.tudou.com/programs/view/SXgshk-sYbw/)
 
 [广告：如果自学有困难，建议参加迪艾姆python培训，可以节省学习成本。](https://github.com/pythonpeixun/article/blob/master/index.md)
