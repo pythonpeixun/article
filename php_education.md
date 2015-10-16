@@ -1,5 +1,5 @@
 #php培训提纲
-
+#第一期招生人数：100人 开课时间 10月31日
 #前言：  
 
 >黄哥见过部分朋友，会用PHP开发web应用，但不能自学会其它编程语言（python），为啥？
@@ -9,11 +9,17 @@
 #黄哥PHP培训特色：  
 >1、第一个阶段：训练学员通过学习php学会编程，既讲语法，又重点训练计算思维、编程思路。
             以达到学员自己能动手写代码解决问题，换一种编程语言也能很快上手的目的。
+
 >2、第二个阶段：按照web开发的规律，快速掌握web开发，熟悉一种框架的使用。
+
+# 费用：5000元  第一期特价：3800元 培训形式：qq群视频在线直播 课后作业 qq答疑
+#学习周期3个月：每周2次课，每次2小时。
+#联系方式 qq:1465376564 电话：18610508486 黄老师
+
 
 #授课内容：
 ##PHP Basics Syntax    
-1、Source Files and PHP Tags  
+>1、Source Files and PHP Tags  
 2、Newline Characters  
 3、Anatomy of a PHP Script  
 4、Comments  
@@ -22,14 +28,14 @@
 7、Language Constructs  
 
 ##Data Types  
-1、Numeric Values  
+>1、Numeric Values  
 2、Strings  
 3、Booleans  
 4、Compound Data Types  
 5、Other Data Types  
 6、Converting Between Data Types  
 
->Variables
+>Variables  
 1、Type Casting  
 2、Variable Variables  
 3、Inspecting Variables  
@@ -66,7 +72,7 @@
 >Variable Scope  
 
 ##Strings and Patterns  
-String Basics    
+>String Basics    
 Escaping Literal Values  
 Working with Strings  
 Comparing, Searching and Replacing Strings   Formatting Strings  
@@ -74,79 +80,79 @@ Perl Compatible Regular Expressions
 
 ##Arrays
 ###Array Basics
-Short Array Syntax  
+>Short Array Syntax  
 Printing Arrays  
 Enumerative vs. Associative   Multi-dimensional Arrays  
 Unravelling Arrays  
 
 ##Array Operations
-Comparing Arrays  
+>Comparing Arrays  
 Counting, Searching and Deleting Elements   Flipping and Reversing  
 
 ##Array Iteration  
-The Array Pointer  
+>The Array Pointer  
 An Easier Way to Iterate  
 Passive Iteration  
 
 ##Sorting Arrays
-Other Sorting Options  
+>Other Sorting Options  
 The Anti-Sort  
 
 ##Arrays as Stacks, Queues and Sets  
-Set Functionality  
+>Set Functionality  
 
 ##Dereferencing Arrays
 
 ##Web Programming
-Anatomy of a Web Page  
+>Anatomy of a Web Page  
 Forms and URLs  
 HTTP Headers  
 Sessions  
 Built-in HTTP Server  
 
 #Files, Streams, and Network Programming
-Accessing Files  
+>Accessing Files  
 Accessing Network Resources  
 PHP Archives (PHAR)  
 
 #Database Programming
-An Introduction to Relational Databases and SQL  
+>An Introduction to Relational Databases and SQL  
 SQL Joins  
 Advanced Database Topics  
 Working with Databases  
 MySQL Native Driver  
 
 #Data Formats and Types
-JSON 180 Dates and Times  
+>JSON 180 Dates and Times  
 Extensible Markup Language (XML)  
 ##SimpleXML
 ##DOM
-Loading and Saving XML Documents  
+>Loading and Saving XML Documents  
 XPath Queries  
 Modifying XML Documents  
 
 #Object-Oriented Programming in PHP
-OOP Fundamentals  
+>OOP Fundamentals  
 Class Methods and Properties  
 Constants, Static Methods and Properties     Interfaces and Abstract Classes  
 Lazy Loading  
 Reflection  
 
 #Closures and Callbacks
-Closures  
+>Closures  
 Callbacks  
 
 #Elements of Object-Oriented Design 249
-Designing Code  
+>Designing Code  
 Design Pattern Theory   
 The Standard PHP Library   
 Generators  
 
 #Errors and Exceptions
-PHP Errors and Error Managemen   Exceptions  
+>PHP Errors and Error Managemen   Exceptions  
 
 #Security
-Concepts and Practices  
+>Concepts and Practices  
 Password Security  
 Website Security  
 Database Security  
@@ -156,13 +162,13 @@ Shared Hosting
 
 
 #Array Functions  
-Filter Extension Filters and Flags  
+>Filter Extension Filters and Flags  
 Validation Filters  
 Sanitation Filters  
 Flags  
 
 #phpdbg  
-Installation  
+>Installation  
 Using phpdbg  
 Remote Debugging  
 Commands  p
