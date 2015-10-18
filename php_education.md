@@ -1,4 +1,5 @@
 #php培训提纲
+#培训的目标：培训学会能自己写代码解决问题、能独立开发web网站。
 #第一期招生人数：30人 开课时间 10月31日
 #前言：  
 
@@ -7,18 +8,20 @@
 >说得严重点，就是编程没有完全学会。
 
 #黄哥PHP培训特色：  
+## 将PHP当一门语言来教学，不是纯写web的工具。
 >1、第一个阶段：训练学员通过学习php学会编程，既讲语法，又重点训练计算思维、编程思路。
             以达到学员自己能动手写代码解决问题，换一种编程语言也能很快上手的目的。
 
 >2、第二个阶段：按照web开发的规律，快速掌握web开发，熟悉一种框架的使用。
 
-# 费用：5000元  第一期特价：3800元 培训形式：qq群视频在线直播 课后作业 qq答疑
-#学习周期3个月：每周2次课，每次2小时。
+# 费用：5000元  培训形式：qq群视频在线直播 课后作业 qq答疑
+#学习周期4个月：每周2次课，每次3小时。
 #联系方式 qq:1465376564 电话：18610508486 黄老师
 
 
 #授课内容：
-##PHP Basics Syntax    
+#面向过程的训练
+## PHP 基础语法 PHP Basics Syntax    
 >1、Source Files and PHP Tags  
 2、Newline Characters  
 3、Anatomy of a PHP Script  
@@ -27,7 +30,7 @@
 6、Code Blocks  
 7、Language Constructs  
 
-##Data Types  
+##数据类型 Data Types  
 >1、Numeric Values  
 2、Strings  
 3、Booleans  
@@ -66,19 +69,19 @@
 3、Aliasing  
 4、Importing Functions and Constants
 
-##Functions
+##函数抽象 Functions
 >Basic Syntax  
 >Returning Values  
 >Variable Scope  
 
-##Strings and Patterns  
+##字符串和正则表达式 Strings and Patterns  
 >String Basics    
 Escaping Literal Values  
 Working with Strings  
 Comparing, Searching and Replacing Strings   Formatting Strings  
 Perl Compatible Regular Expressions  
 
-##Arrays
+##数组 Arrays
 ###Array Basics
 >Short Array Syntax  
 Printing Arrays  
@@ -103,24 +106,34 @@ The Anti-Sort
 
 ##Dereferencing Arrays
 
-##Web Programming
+#html css javascript 基础知识介绍   
+
+## web编程 Web Programming
 >Anatomy of a Web Page  
 Forms and URLs  
 HTTP Headers  
 Sessions  
 Built-in HTTP Server  
 
-#Files, Streams, and Network Programming
->Accessing Files  
-Accessing Network Resources  
-PHP Archives (PHAR)  
+#PHP文件处理和网络编程
+>目录操作  
+文件操作  
+http协议
+抓包
+socket
+curl库和爬虫
 
-#Database Programming
->An Introduction to Relational Databases and SQL  
-SQL Joins  
-Advanced Database Topics  
-Working with Databases  
-MySQL Native Driver  
+#数据库编程 Database Programming
+>数据库介绍 关系数据库  NOSQL数据库介绍  
+>设计和创建数据库（mysql）  
+>存储和检索数据  
+>数据库事务  
+>php 访问数据库 PDO  
+>mysql 数据库表关系 一对一、一对多、多对一、多对多关系。
+>mysql 主从复制  
+>mysql 读写分离  
+>redis 简介  
+
 
 #Data Formats and Types
 >JSON 180 Dates and Times  
@@ -131,27 +144,41 @@ Extensible Markup Language (XML)
 XPath Queries  
 Modifying XML Documents  
 
+#面向对象的训练
 #Object-Oriented Programming in PHP
->OOP Fundamentals  
-Class Methods and Properties  
-Constants, Static Methods and Properties     Interfaces and Abstract Classes  
-Lazy Loading  
-Reflection  
+> 面向对象编程的理论  
+>定义类  
+创建对象  
+$this 为啥代表对象  
+创建构造函数、析构函数  
+使用UML设计类
+继承类  
+继承构造函数、析构函数  
+方法的重写  
+访问控制  
+使用::操作符  
+静态成员  
+抽象类和方法  
+接口  
+traits  
+类型提示  
+命名空间  
 
-#Closures and Callbacks
->Closures  
-Callbacks  
+#设计模式  
+>Design Pattern Theory  
+The Singleton Pattern  
+The Factory Pattern  
+The Registry Pattern  
+The Model-View-Controller Pattern
 
-#Elements of Object-Oriented Design 249
->Designing Code  
-Design Pattern Theory   
-The Standard PHP Library   
-Generators  
+#PHP标准库 (SPL)  
 
-#Errors and Exceptions
+
+#错误和异常 Errors and Exceptions
 >PHP Errors and Error Managemen   Exceptions  
 
-#Security
+
+#安全 Security
 >Concepts and Practices  
 Password Security  
 Website Security  
@@ -161,14 +188,22 @@ Filesystem Security
 Shared Hosting  
 
 
-#Array Functions  
->Filter Extension Filters and Flags  
-Validation Filters  
-Sanitation Filters  
-Flags  
 
-#phpdbg  
->Installation  
-Using phpdbg  
-Remote Debugging  
-Commands  p
+#调试、测试、测试驱动开发  
+##调试  
+>安装Xdebug  
+使用Xdebug
+##测试  
+>安装PHPUNIT  
+定义测试  
+创建测试用例  
+运行测试  
+建立测试  
+##测试驱动开发  
+
+#基于文本的blog系统
+#面向对象cms系统实例
+
+# Laravel 5 框架学习
+
+#需求分析和版本控制(git)
