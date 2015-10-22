@@ -8,7 +8,8 @@
 #电话：18610508486
 #上面都不是最重要的，可以看黄老师写的文章和试看视频
 
-请看黄哥本人写的文章
+请看黄老师本人写的文章  
+
 [如何捅破python编程的那层纸]
 (https://github.com/pythonpeixun/article/blob/master/pythonstudy.md)
 
