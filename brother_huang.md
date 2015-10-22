@@ -14,7 +14,8 @@
 (https://github.com/pythonpeixun/article/blob/master/pythonstudy.md)
 
 [剪刀石头布小习题三种语言python2、php、go代码]
-(https://github.com/pythonpeixun/article/blob/master/jdstb.md)
+(https://github.com/pythonpeixun/article/blob/master/jdstb.md)  
+
 [一段小代码说明@property装饰器的用法]
 (http://my.oschina.net/pythonpeixun/blog/382586)
 
