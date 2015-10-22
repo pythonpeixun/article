@@ -28,7 +28,8 @@
 
 
 [黄哥python试看视频播放地址]
-(https://github.com/pythonpeixun/article/blob/master/python_shiping.md)
+(https://github.com/pythonpeixun/article/blob/master/python_shiping.md)  
+
 [python初学的第一步]
 (http://www.tudou.com/programs/view/pZvrOt9RlmE/)
 
