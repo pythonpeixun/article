@@ -2,8 +2,6 @@
 
 [迪艾姆python远程视频培训班] (https://github.com/pythonpeixun/article/blob/master/index.md)
 
-[黄哥python培训_python初学者的第一步 ](http://www.tudou.com/programs/view/pZvrOt9RlmE/)  
-[如何捅破python编程的那层纸视频](http://www.tudou.com/programs/view/ppJv6Kf08Ac/)  
 
 
 [迪艾姆python培训_python编程思路1.flv ](http://www.tudou.com/programs/view/UJAiXBoakWM/)
@@ -39,6 +37,7 @@
 
 [迪艾姆python培训_web.py之hello world.flv](http://v.youku.com/v_show/id_XNjgxNjgyNTMy.html)
 
-
+[黄哥python培训_python初学者的第一步 ](http://www.tudou.com/programs/view/pZvrOt9RlmE/)  
+[如何捅破python编程的那层纸视频](http://www.tudou.com/programs/view/ppJv6Kf08Ac/) 
 
 [迪艾姆python远程视频培训班] (https://github.com/pythonpeixun/article/blob/master/index.md)
