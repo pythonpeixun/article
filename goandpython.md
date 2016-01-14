@@ -37,3 +37,5 @@ go语言处理这个问题代码量稍微多一点，但也很方便。
 	  }
 
 	}
+
+[黄哥python远程视频培训班] (https://github.com/pythonpeixun/article/blob/master/index.md)
