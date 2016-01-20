@@ -11,9 +11,13 @@
  1、可以在这个if下测试函数或类。  
 
  2、防止模块被导入时，函数或类的代码被执行2次。  
- 
+
 
  ![](main-1.png)
  ![](main-2.png)
  ![](main-3.png)
  ![](main-4.png)
+
+[点击黄哥python培训试看视频播放地址](https://github.com/pythonpeixun/article/blob/master/python_shiping.md)
+
+[黄哥python远程视频培训班] (https://github.com/pythonpeixun/article/blob/master/index.md)
