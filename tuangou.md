@@ -1,7 +1,5 @@
 
-#团购终止
-
-重大好消息  《百人团购黄哥python视频培训课程活动》
+重大好消息  《欢度春节，欢迎参加黄哥python视频培训课程团购活动》
 
 暂时差钱的朋友，送福利来了，欢迎团购黄哥python视频培训
 
@@ -28,4 +26,3 @@
 ##[点击黄哥python培训试看视频播放地址](https://github.com/pythonpeixun/article/blob/master/python_shiping.md)
 
 ##联系方式：咨询qq:1465376564 电话：18610508486 黄老师
-
