@@ -55,6 +55,7 @@ N = 15
 
 
 下面是队列实现  
+
     #coding:utf-8
 
     import collections
