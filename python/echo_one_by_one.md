@@ -54,7 +54,7 @@ N = 15
         j += 1
 
 
-下面是队列实现
+下面是队列实现  
     #coding:utf-8
 
     import collections
