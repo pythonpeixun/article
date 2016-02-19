@@ -1,4 +1,7 @@
 #python程序员如何加强搞定问题的能力  
+[点击黄哥python培训试看视频播放地址](https://github.com/pythonpeixun/article/blob/master/python_shiping.md)
+
+[黄哥python远程视频培训班](https://github.com/pythonpeixun/article/blob/master/index.md)
 
     1、首先要确认问题是可以被解决的，不能一碰到问题就逃辟。
        综艺天王吴宗宪说过，面对问题，问题就解决了一半。
