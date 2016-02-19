@@ -1,5 +1,6 @@
 #编程杂谈  
-     ##通过python、php、golang对实例对象的字符串表示语言比较
+通过python、php、golang对实例对象的字符串表示语言比较
+通过特定方法（print、golang是Println等）输出实例对象时，就会调用__str__, __toString(),String()方法。
 
 
 ##python 代码  
