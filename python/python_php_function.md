@@ -24,11 +24,11 @@ python 中函数是第一类对象，函数名字是函数对象的引用，函�
 
         def f2():
             print("I come from f2")
-    
+
         foo = f1(f2) # 返回值函数
         print(foo()) # foo()的值还是函数
         #<function f2 at 0x10c0ab140>
-        foo()()  # 带扣号调用
+        foo()()  # 带括号调用
         #I come from f2
 有人问php如何实现上面的功能呢？
 
@@ -40,13 +40,13 @@ php匿名函数（Anonymous functions），也叫闭包函数（closures），�
         $f2 = function(){
           return "I come from f2()";
         };
-    
+
         function f1($func) {
           $f3 = function() use($func){
             return $func();
           };
           return $f3;
         }
-    
+
         print f1($f2)();
         print "\n";
