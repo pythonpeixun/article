@@ -88,13 +88,13 @@
         }
 
 ##c语言代码    
- 
+
       void insertion_sort(int arr[], int len) {
       	int i, j;
       	int temp;
       	for (i = 1; i < len; i++) {
       		temp = arr[i]; //與已排序的數逐一比較，大於temp時，該數向後移
-      		for (j = i - 1; j >= 0 && arr[j] > temp; j--) //j循环到-1时，由于[[短路求值]](http://zh.wikipedia.org/wiki/短路求值)，不会运算array[-1]
+      		for (j = i - 1; j >= 0 && arr[j] > temp; j--) //j循环到-1时，由于短路求值，不会运算array[-1]
       			arr[j + 1] = arr[j];
       		arr[j+1] = temp; //被排序数放到正确的位置
       	}
