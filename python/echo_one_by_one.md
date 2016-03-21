@@ -54,7 +54,8 @@ N = 15
         j += 1
 
 
-for 循环
+for 循环    
+
         #! /usr/bin/python
         #coding:utf-8
 
