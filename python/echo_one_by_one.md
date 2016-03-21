@@ -54,6 +54,28 @@ N = 15
         j += 1
 
 
+for 循环
+        #! /usr/bin/python
+        #coding:utf-8
+
+
+        def from_begin_to_end(lst, n):
+            '''for 循环，辅助j,计算循环,窍门在于 ％4 == 0
+             j = 0
+            '''
+            j = 0
+            for i in range(1, n + 1):
+                print lst[j]
+                j += 1
+                if i % 4 == 0:
+                    j = 0
+
+        if __name__ == '__main__':
+            lst = ['A', 'B', 'C', 'D']
+            n = int(raw_input('please input n:\n'))
+            from_begin_to_end(lst, n)
+
+
 下面是队列实现  
 
     #coding:utf-8
