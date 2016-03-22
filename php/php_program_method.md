@@ -44,6 +44,8 @@ C
 
 相信大家计数循环大家都能看得懂，但用计算循环来解决这样的问题，初学者会感觉无从下手。
 
+##以下代码以命令行的方式运行：php begintoend.php
+
 ##代码1，用循环
 
 
@@ -62,11 +64,11 @@ C
               $j = 0;
             }
             $i += 1;
-
+    
           }
-
+    
         }
-
+    
         print("请输入: n\n");
         $n = trim(fgets(STDIN));
         $arr = array("A", "B", "C", "D");
@@ -78,7 +80,7 @@ C
 
 
     <?php
-
+    
         function echoBeginToend($q, $n){
           for ($i=1; $i<=$n; $i++){
             $tmp = $q->dequeue();
