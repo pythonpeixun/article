@@ -1,4 +1,4 @@
-#python二分查找算法
+#跟黄哥学python序列文章之python二分查找算法
 
 在计算机科学中，二分查找算法（binary search）、也称折半搜索（英语：half-interval search），  
 二分搜索法、二分搜索、二分探索，是一种在有序数组中查找某一特定元素的搜索算法。  
