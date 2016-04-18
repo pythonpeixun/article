@@ -1,4 +1,4 @@
-# python 方法链 method chaining
+# 跟黄哥学python序列文章之python方法链(method chaining)
 
 ## 写这篇文章来由，有朋友说下面这样的代码看不懂。
 choice = raw_input("please input:\n").strip()[0].lower()   
