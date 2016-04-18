@@ -1,6 +1,6 @@
 # python 方法链 method chaining
 
-## 写这篇文章来由，有朋友说这样的代码看不懂。
+## 写这篇文章来由，有朋友说下面这样的代码看不懂。
 choice = raw_input("please input:\n").strip()[0].lower()   
 很多对于有经验的程序员来说，这些都不是事，   
 但对于初学者来说，看到这样的语法头有点大。  
