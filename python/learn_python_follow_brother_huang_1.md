@@ -162,6 +162,7 @@ python默认安装目录在/usr/local/lib/python2.7，终端shell下python -V �
 
 如果你感觉黄哥的文章对你有帮助请打赏，支付宝账号：18610508486@163.com
 
+[跟黄哥学习python第二章](learn_python_follow_brother_huang_2.md)
 
 [黄哥python培训_python初学者的第一步](http://www.tudou.com/programs/view/pZvrOt9RlmE/)
 [点击黄哥python培训试看视频播放地址](https://github.com/pythonpeixun/article/blob/master/python_shiping.md)
