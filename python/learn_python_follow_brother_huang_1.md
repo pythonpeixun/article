@@ -49,7 +49,7 @@
 
 	4、在windows下学习，会碰到各种麻烦问题，换一个没有病毒，学习python造成障碍少的操作系统，你说该学吗？   
 
-## linux 可以先择centos，或ubuntu。   
+## linux 可以选择centos，或ubuntu。   
    可以先择独立安装或通过虚拟机安装。    
    [安装ubuntu，请看](http://www.ubuntu.com/download/desktop/install-ubuntu-desktop)。    
    [安装centos，请看](https://wiki.centos.org/HowTos/InstallFromUSBkey)  
