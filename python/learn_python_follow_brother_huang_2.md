@@ -91,7 +91,6 @@
 
 如果你感觉黄哥的文章对你有帮助请打赏，支付宝账号：18610508486@163.com
 
-[黄哥python培训_python初学者的第一步](http://www.tudou.com/programs/view/pZvrOt9RlmE/)
 [点击黄哥python培训试看视频播放地址](https://github.com/pythonpeixun/article/blob/master/python_shiping.md)
 
 [黄哥python远程视频培训班](https://github.com/pythonpeixun/article/blob/master/index.md)  
