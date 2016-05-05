@@ -69,7 +69,8 @@
 # 第一个程序 helloworld.py
 运行第一个程序有多种方式    
 1、可以在python  shell 中直接输入    
-\>>> "hello world"
+
+\>>> "hello world"    
 'hello world'    
 
 
