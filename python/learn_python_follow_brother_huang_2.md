@@ -68,15 +68,17 @@
 
 # 第一个程序 helloworld.py
 运行第一个程序有多种方式    
-1、可以在python  shell 中直接输入
+1、可以在python  shell 中直接输入    
 \>>> "hello world"
 'hello world'    
+
+
 
 2、可以写成文件helloworld.py
 ![](helloworld.png)
      
 3、hello world 代码注意事项    
-\#! /usr/bin/python 这行代码制定你的python解析器的位置，对类unix操作系统有效，windows下可以不用这行代码。
+\#! /usr/bin/python 这行代码指定你的python解析器的位置，对类unix操作系统有效，windows下可以不用这行代码。
 \# coding:utf-8 是指定代码的编码，这个先不用管它，如果是python 2照着写，如果是python 3，可以不需要这行。
 上图第4行代码，print("hello world"),这个是print 在python 3中是函数，python 2中print是 print语句，
 可以用括号或不用括号，python 3必须要用括号，这个是初学python 3的朋友，经常会碰见的一个问题。
