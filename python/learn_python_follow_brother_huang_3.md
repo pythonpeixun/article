@@ -106,9 +106,12 @@
 		dict: Python dictionaries, also called hashmaps or associative arrays, which means that an element of the list is associated with a definition, rather like a Map in Java
 
 
-# 表达式
+## 对象    
 
-
+   python 里所有数据，布尔类型值、整数、浮点数、字符串、列表、元组、字典、函数、类等都是对象。
+   python 变量是对对象的引用。（详细后面再讲）
+ 
+![](variable.png)
 
 
 
