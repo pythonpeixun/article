@@ -59,8 +59,9 @@
 		在python中一切非空值都为True,0值，None，空值，"",'',[],(),{}等都为False.
 		布尔类型主要用在if 判断和 while循环语句中。
 
-   (2)、数字类型
-       整型(int)，就是整数
+   (2)、数字类型  
+
+       整型(int)，就是整数  
        复数(complex),Complex Numbers
 
        浮点型(float)（特别要注意是，计算机浮点数是近似计算，不能将2个浮点数用 == 判断相等。那怎么做，后面再表。）
@@ -69,24 +70,26 @@
 		这种表示法的设计，来自于对于值的表现范围，与精密度之间的取舍：可以在某个固定长度的存储空间内表示出某个实数的近似值。例如，一个指数范围为±4的4位十进制浮点数可以用来表示43210，4.321或0.0004321，但是没有足够的精度来表示432.123和43212.3（必须近似为432.1和43210）。当然，实际使用的位数通常远大于4。
 		此外，浮点数表示法通常还包括一些特别的数值：+∞和−∞（正负无穷大）以及NaN（'Not a Number'）。无穷大用于数太大而无法表示的时候，NaN则指示非法操作或者无法定义的结果。
 		其中，无穷大，可表示为inf，在内存中的值是，阶码为全1,尾数全0。而NaN则是阶码全1,尾数不全0。
-    (3)、系列（Sequences）
-       字符串(str, unicode)
-       str
-       python2 中 represented as a sequence of 8-bit characters in Python 2.x
-       python 3中 str as a sequence of Unicode characters (in the range of U+0000 - U+10FFFF) in Python 3.x
-       python2 中，字符串有str, 和 unicode()类型。
-        >>> s = "黄哥"
+
+(3)、系列（Sequences）
+    
+		字符串(str, unicode)
+		str
+		python2 中 represented as a sequence of 8-bit characters in Python 2.x
+		python 3中 str as a sequence of Unicode characters (in the range of U+0000 - U+10FFFF) in Python 3.x
+		python2 中，字符串有str, 和 unicode()类型。
+		>>> s = "黄哥"
 		>>> type(s)
 		<type 'str'>
 		>>> s2 = u"黄哥"
 		>>> type(s2)
 		<type 'unicode'>
 
-       字节(byte) a sequence of integers in the range of 0-255; only available in Python 3.x
+		字节(byte) a sequence of integers in the range of 0-255; only available in Python 3.x
 
-       字节数组(bytes): only available in Python 3.x
+		字节数组(bytes): only available in Python 3.x
 
-       python 3中 str 和 bytes 互换，str调用encode()将字符串转换为字节数组。字节数组调用decode()转换为str.
+		python 3中 str 和 bytes 互换，str调用encode()将字符串转换为字节数组。字节数组调用decode()转换为str.
 
 ![](strbytes.png)
 
