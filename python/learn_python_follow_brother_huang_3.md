@@ -21,7 +21,7 @@
 
 
 ## python 像人类讲的语言一样，有自己的语法。    
-   python 变量，表达式, 语句。    
+##python 变量。    
    变量    
    1、变量，望文生义一下，意思是说，可以改变，变化的量。程序设计中，希望可以改变的数据，用变量来保存或引用。
      变量在程序设计过程中，取值可以改变的量为变量。   
@@ -49,6 +49,64 @@
      (3)、变量在表达式中使用之前必须先要赋值。（这个是初学者最容易犯的错误，经常变量没有先赋值就使用。有的初学者打字
      有误，造成变量名前后不一致，少一个字母或颠倒字母顺序或大小写等错误。    
      凡是报错信息看到“NameError: name '＊＊＊' is not defined”，就是这个问题。）
+
+
+## 数据类型
+   python内置数据类型
+   (1)、布尔类型，有2个值True和False。
+
+		这个最容易犯错的地方在于初学者，大小写写错，字母写错了。
+		在python中一切非空值都为True,0值，None，空值，"",'',[],(),{}等都为False.
+		布尔类型主要用在if 判断和 while循环语句中。
+
+   (2)、数字类型
+       整型(int)，就是整数
+       复数(complex),Complex Numbers
+
+       浮点型(float)（特别要注意是，计算机浮点数是近似计算，不能将2个浮点数用 == 判断相等。那怎么做，后面再表。）
+		在计算机科学中，浮点（英语：Float point，缩写为FP）是一种对于实数的近似值数值表现法，由一个有效数字（即尾数）加上幂数来表示，通常是乘以某个基数的整数次指数得到。以这种表示法表示的数值，称为浮点数（floating-point number）。利用浮点进行运算，称为浮点计算，这种运算通常伴随着因为无法精确表示而进行的近似或舍入。
+		这种表示方法类似于基数为10的科学记数法，在计算机上，通常使用2为基数的幂数来表式。一个浮点数a由两个数m和e来表示：a = m × be。在任意一个这样的系统中，我们选择一个基数b（记数系统的基）和精度p（即使用多少位来存储）。m（即尾数）是形如±d.ddd...ddd的p位数（每一位是一个介于0到b-1之间的整数，包括0和b-1）。如果m的第一位是非0整数，m称作正规化的。有一些描述使用一个单独的符号位（s 代表+或者-）来表示正负，这样m必须是正的。e是指数。
+		这种表示法的设计，来自于对于值的表现范围，与精密度之间的取舍：可以在某个固定长度的存储空间内表示出某个实数的近似值。例如，一个指数范围为±4的4位十进制浮点数可以用来表示43210，4.321或0.0004321，但是没有足够的精度来表示432.123和43212.3（必须近似为432.1和43210）。当然，实际使用的位数通常远大于4。
+		此外，浮点数表示法通常还包括一些特别的数值：+∞和−∞（正负无穷大）以及NaN（'Not a Number'）。无穷大用于数太大而无法表示的时候，NaN则指示非法操作或者无法定义的结果。
+		其中，无穷大，可表示为inf，在内存中的值是，阶码为全1,尾数全0。而NaN则是阶码全1,尾数不全0。
+    (3)、系列（Sequences）
+       字符串(str, unicode)
+       str
+       python2 中 represented as a sequence of 8-bit characters in Python 2.x
+       python 3中 str as a sequence of Unicode characters (in the range of U+0000 - U+10FFFF) in Python 3.x
+       python2 中，字符串有str, 和 unicode()类型。
+        >>> s = "黄哥"
+		>>> type(s)
+		<type 'str'>
+		>>> s2 = u"黄哥"
+		>>> type(s2)
+		<type 'unicode'>
+
+       字节(byte) a sequence of integers in the range of 0-255; only available in Python 3.x
+
+       字节数组(bytes): only available in Python 3.x
+
+       python 3中 str 和 bytes 互换，str调用encode()将字符串转换为字节数组。字节数组调用decode()转换为str.
+
+![](strbytes.png)
+
+
+       列表(list)（后面再表）
+
+       集合(Sets) （后面再表）
+
+		set: an unordered collection of unique objects; available as a standard type since Python 2.6
+		frozen set: like set, but immutable (see below); available as a standard type since Python 2.6
+
+	    字典（后面再表）
+
+		dict: Python dictionaries, also called hashmaps or associative arrays, which means that an element of the list is associated with a definition, rather like a Map in Java
+
+
+# 表达式
+
+
+
 
 
 
