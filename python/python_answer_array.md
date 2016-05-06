@@ -1,5 +1,7 @@
 #用python写一个程序，找出数组中差值为K的数共有几对
 ##知乎上有人问“用python写一个程序，找出数组中差值为K的数共有几对”
+如果你感觉黄哥的文章对你有帮助请打赏，支付宝账号：18610508486@163.com
+
 
 [点击黄哥python培训试看视频播放地址](https://github.com/pythonpeixun/article/blob/master/python_shiping.md)
 

@@ -59,6 +59,9 @@
 代码但自己不能动手写代码的原因。编程思路是一样的，学会一种语言，再学第二种就很简单。
 欢迎有经济能力，有追求的青年参加黄哥的培训。
 
+如果你感觉黄哥的文章对你有帮助请打赏，支付宝账号：18610508486@163.com
+
+
 [点击黄哥python培训试看视频播放地址](https://github.com/pythonpeixun/article/blob/master/python_shiping.md)
 
 [黄哥python远程视频培训班](https://github.com/pythonpeixun/article/blob/master/index.md)

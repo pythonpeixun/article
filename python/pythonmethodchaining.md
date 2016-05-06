@@ -1,4 +1,5 @@
 # 跟黄哥学python序列文章之python方法链(method chaining)
+如果你感觉黄哥的文章对你有帮助请打赏，支付宝账号：18610508486@163.com
 
 ## 写这篇文章来由，有朋友说下面这样的代码看不懂。
 choice = raw_input("please input:\n").strip()[0].lower()   
