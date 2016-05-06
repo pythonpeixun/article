@@ -87,8 +87,6 @@
 		>>> type(s2)
 		<type 'unicode'>
 
-		字节(byte) a sequence of integers in the range of 0-255; only available in Python 3.x
-
 		字节数组(bytes): only available in Python 3.x
 
 		python 3中 str 和 bytes 互换，str调用encode()将字符串转换为字节数组。字节数组调用decode()转换为str.
