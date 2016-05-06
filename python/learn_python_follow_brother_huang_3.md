@@ -21,6 +21,7 @@
 
 
 ## python 像人类讲的语言一样，有自己的语法。    
+
 ##python 变量。    
    变量    
    1、变量，望文生义一下，意思是说，可以改变，变化的量。程序设计中，希望可以改变的数据，用变量来保存或引用。
@@ -53,6 +54,8 @@
      凡是报错信息看到“NameError: name '＊＊＊' is not defined”，就是这个问题。）
 
 
+
+
 ## 数据类型(数据类型是定义一个值的集合以及定义在这个值集上的一组操作。)
    python内置数据类型    
    (1)、布尔类型，有2个值True和False。
@@ -64,6 +67,7 @@
    (2)、数字类型  
 
        整型(int)，就是整数  
+
        复数(complex),Complex Numbers
 
        浮点型(float)（特别要注意是，计算机浮点数是近似计算，不能将2个浮点数用 == 判断相等。那怎么做，后面再表。）
@@ -104,6 +108,8 @@
 	    字典（后面再表）
 
 		dict: Python dictionaries, also called hashmaps or associative arrays, which means that an element of the list is associated with a definition, rather like a Map in Java
+
+
 
 
 ## 对象    
