@@ -91,6 +91,9 @@
 
 如果你感觉黄哥的文章对你有帮助请打赏，支付宝账号：18610508486@163.com
 
+[跟黄哥学习python第三章](learn_python_follow_brother_huang_3.md)
+
+
 [点击黄哥python培训试看视频播放地址](https://github.com/pythonpeixun/article/blob/master/python_shiping.md)
 
 [黄哥python远程视频培训班](https://github.com/pythonpeixun/article/blob/master/index.md)  
