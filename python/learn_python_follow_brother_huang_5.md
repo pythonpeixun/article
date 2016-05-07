@@ -72,9 +72,6 @@ instances of user-defined classes, if the class defines a __bool__() or __len__(
     结果为4，有的朋友纠结说，为啥不是True。
     文档上说了x and y	if x is false, then x, else y。
 
-# 条件表达式   
-
-条件表达式是根据某个条件计算的表达式。
 
 ## 比较运算符(也称关系运算符)    
 
@@ -94,6 +91,7 @@ instances of user-defined classes, if the class defines a __bool__() or __len__(
 	True
 	>>> 3 > 4
 	False
+
 
 
 待续.............
