@@ -72,7 +72,8 @@ instances of user-defined classes, if the class defines a __bool__() or __len__(
     结果为4，有的朋友纠结说，为啥不是True。
     文档上说了x and y	if x is false, then x, else y。
 
-真值表
+真值表   
+
 ![](ch5_3.png)
 
 ## 比较运算符(也称关系运算符)    
