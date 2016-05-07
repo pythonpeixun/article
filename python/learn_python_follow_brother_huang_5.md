@@ -76,7 +76,7 @@ instances of user-defined classes, if the class defines a __bool__() or __len__(
 
 ![](ch5_3.png)
 
-## 比较运算符(也称关系运算符)    
+## 关系运算符(也称比较运算符)    
 
 	运算符	含义
 	<	小于
@@ -89,11 +89,23 @@ instances of user-defined classes, if the class defines a __bool__() or __len__(
 	is not	negated object identity
 
 	x < y < z 想当于 x < y and y < z
-	比较运算符的结果有一个真假值。
+	关系运算符的结果有一个真假值。
 	>>> 3 < 4
 	True
 	>>> 3 > 4
 	False
+
+
+## 运算符的结合和优先级   
+前面学习的算术运算符，逻辑运算符， 关系运算符可以结合起来，组成表达式。    
+表达式可以为变量赋值，也可以作为if 语句，while 语句后面的布尔表达式使用，所谓的条件判断。    
+下面的图片，展示了python所有的运算符的优先级，从上往下优先级热来热高，同一个行运算符从左到右运算（除乘方外）。   
+乘方是从右往左计算。   
+![](ch5_4.png)
+
+
+请看一面表达式。
+1 ＋ 2 * 5 > 3 * (2 + 6) - 1
 
 
 
