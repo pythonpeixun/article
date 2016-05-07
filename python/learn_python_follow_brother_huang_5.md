@@ -94,6 +94,7 @@ instances of user-defined classes, if the class defines a __bool__() or __len__(
 
 
 
+待续.............
 
 
 
