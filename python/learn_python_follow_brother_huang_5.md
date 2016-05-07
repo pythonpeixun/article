@@ -32,25 +32,6 @@ instances of user-defined classes, if the class defines a __bool__() or __len__(
 是真还是假，用bool类检测一下，就知道！    
 ![](ch5_2.png)
 
-## 比较运算符(也称关系运算符)    
-
-	运算符	含义
-	<	小于
-	<=	小于等于
-	>	大于
-	>=	大于等于
-	==	相等
-	!=	不想等
-	is	是不是同一个对象
-	is not	negated object identity
-
-	x < y < z 想当于 x < y and y < z
-	比较运算符的结果有一个真假值。
-	>>> 3 < 4
-	True
-	>>> 3 > 4
-	False
-
 ## 逻辑运算符    
 
 	Boolean Operations — and, or, not
@@ -91,7 +72,28 @@ instances of user-defined classes, if the class defines a __bool__() or __len__(
     结果为4，有的朋友纠结说，为啥不是True。
     文档上说了x and y	if x is false, then x, else y。
 
+# 条件表达式   
 
+条件表达式是根据某个条件计算的表达式。
+
+## 比较运算符(也称关系运算符)    
+
+	运算符	含义
+	<	小于
+	<=	小于等于
+	>	大于
+	>=	大于等于
+	==	相等
+	!=	不想等
+	is	是不是同一个对象
+	is not	negated object identity
+
+	x < y < z 想当于 x < y and y < z
+	比较运算符的结果有一个真假值。
+	>>> 3 < 4
+	True
+	>>> 3 > 4
+	False
 
 
 待续.............
