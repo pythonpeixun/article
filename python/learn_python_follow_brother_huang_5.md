@@ -44,10 +44,52 @@ instances of user-defined classes, if the class defines a __bool__() or __len__(
 	is	是不是同一个对象
 	is not	negated object identity
 
-## 逻辑运算符
-Boolean Operations — and, or, not
+	x < y < z 想当于 x < y and y < z
+	比较运算符的结果有一个真假值。
+	>>> 3 < 4
+	True
+	>>> 3 > 4
+	False
 
+## 逻辑运算符    
 
+	Boolean Operations — and, or, not
+
+	运算符(Operation)	    计算结果(Result)	     优先级
+	x or y	if x is false, then y, else x	     (1)
+	x and y	if x is false, then x, else y	     (2)
+	not x	if x is false, then True, else False (3）
+
+	逻辑运算符优先级，not 最高，and 第二， or 第三。
+	not 运算符优先级低于其它非逻辑运算符，not a == b 相当于 not (a == b),
+	如果写成 a == not b 就会报语法错误。
+	逻辑短路，计算2个值和一个逻辑运算符组成的表达式。
+	x or y 只有当 bool(x) 为False时，才会计算后面的y，否则直接得出表达式的值。
+	下面的代码发生短路情况，0为除数不合法，但发生短路，3/0没有被计算。
+	>>> 1 or 3 / 0   
+        1
+	x and y 只有当 bool(x) 为True时，才会计算后面的y。
+	下面的代码发生短路情况
+	>>> 0 and 3 / 0
+        0
+
+    特别提示：初学者在布尔表达式中，有几个纠结。
+    有的朋友说，下面这样的表达式为啥不发生短路。为啥结果不是0，而是[]
+    >>> 0 and 3 / 0 or None and 1 or []
+       []
+    黄哥的解答是，逻辑短路，计算2个值和一个逻辑运算符组成的表达式，0 and 3 / 0 发生了短路，
+    0 and 3 / 0计算结果为0，但整个表达式求值没有完，要继续计算 0 and 3 / 0 or None and 1 or [] 变为
+    0 or None and 1 or [],前面说了and 优先级高于or,0 or None and 1 or []相当于
+    0 or (None and 1) or [],进一步简化，0 or None or [],再看上面
+    x or y	if x is false, then y, else x， 所以0 or None or [] 计算为None or []
+    最后结果为[]
+
+    第二个纠结是：
+    >>> 3 and 4
+       4
+
+    结果为4，有的朋友纠结说，为啥不是True。
+    文档上说了x and y	if x is false, then x, else y。
 
 
 
