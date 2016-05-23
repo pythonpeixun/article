@@ -83,7 +83,7 @@
 黄哥写于2016-5-22 早晨 北京
 
 
-
+[点击黄哥python培训试看视频播放地址](https://github.com/pythonpeixun/article/blob/master/python_shiping.md)
 
 
 
