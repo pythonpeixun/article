@@ -34,6 +34,26 @@
 	        print "人获胜！"
 	        break
 
+上面的代码有一个小bug，感谢北交大校友发现的问题，黄哥修改如下（2016年8月5号上午）。
+
+  # coding:utf-8
+
+  import random
+  guess_list = ["石头", "剪刀", "布"]
+  win_combination = [["布", "石头"], ["石头", "剪刀"], ["剪刀", "布"]]
+
+  while True:
+      computer = random.choice(guess_list)
+      people = raw_input('请输入：石头,剪刀,布\n').strip()
+      if people not in guess_list:
+          continue
+      elif computer == people:
+          print "平手，再玩一次！"
+      elif [computer, people] in win_combination:
+          print "电脑获胜，再玩，人获胜才能退出！"
+      else:
+          print "人获胜！"
+          break
 
 ##php语言实现
 
@@ -54,37 +74,37 @@
 	$rand_keys = array_rand($my_array);
 	$computer = $my_array[$rand_keys];
 	//取数组中随机值
-	 
+
 	echo $computer . "\n";
-	 
-	 
-	 
-	 
+
+
+
+
 	// echo $person;
 	while (True)
-	{ 
+	{
 	    echo "请输入: 石头  剪刀  布\n";
 	    $person = trim(fgets(STDIN)) ;
 	    $input = array($computer,$person);
 	    //将输入的$person和电脑随机产生的值构造一个数组
 	    //再判断在不在获胜规则数组中
-	 
+
 	    if (!(in_array($person,$my_array)))
 	    {
 	       echo "只能输入'剪刀、石头，布，请重新输入'";
 	       continue;
-	 
+
 	    }
-	    
-	 
+
+
 	    if ($computer == $person )
 	    {
 	        echo "平手\n";
-	         
+
 	    }
 	    else if (in_array($input,$guize)) {
 	        echo "电脑胜\n";
-	         
+
 	    }
 	    else
 	    {
