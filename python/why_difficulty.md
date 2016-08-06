@@ -16,7 +16,7 @@
 
 3、黄哥也不是很牛逼的程序员（不然也在bta拿年薪百万，人贵有自知之明，黄哥也在不断学习中。），但黄哥能帮助学员快速的完成0到1（从零基础到自己会写代码解决问题。）的这个过程。
 
-[感恩！感谢黄哥Python培训学员的支持和肯定。]()
+[感恩！感谢黄哥Python培训学员的支持和肯定。](https://github.com/pythonpeixun/article/blob/master/python/thanks.md)
 
 
-[216小时学会Python]()
+[216小时学会Python](https://github.com/pythonpeixun/article/blob/master/python/hours_216.mdown)
