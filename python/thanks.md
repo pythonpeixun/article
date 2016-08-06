@@ -10,24 +10,24 @@
 ![](thanks1.jpg)
 
 2、东北学员评价
-![](thanks2.jpg)
+![](thanks2.png)
 
 3、女测试学员对视频的评价
 
-![](thanks3.jpg)
+![](thanks3.png)
 
 4、测试学员的评价
 
-![](thanks4.jpg)
+![](thanks4.png)
 
 
 5、海外学员的评价
 
-![](thanks5.jpg)
+![](thanks5.png)
 
 
 6、外资企业请黄哥讲课的情况。
-![](thanks6.jpg)
+![](thanks6.png)
 
 
 学习千万不能“好高骛远”，有少部分人说Python语法都知道，可惜，让他写做一个习题，代码写不出。让他做一个项目，像狗咬刺猬无从下手。
