@@ -33,14 +33,13 @@ Python 中通俗一点来说，如果在一个函数内部，嵌套了函数，�
 
 可以从单步调试来观看x值的变化。
 
-![Closure1.png]    
+![](Closure1.png)    
 
-![Closure2.png]
+![](Closure2.png)
 
+![](Closure3.png)
 
-![Closure3.png]
-
-![Closure4.png]
+![](Closure4.png)
 
 
 闭包作用：
