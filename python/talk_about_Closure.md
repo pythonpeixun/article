@@ -54,6 +54,6 @@ Python 中通俗一点来说，如果在一个函数内部，嵌套了函数，�
 https://zhuanlan.zhihu.com/p/21528317
 
 
-[216小时学会Python](https://github.com/pythonpeixun/article/blob/master/python/hours_216.mdown)
+[216小时学会Python](https://github.com/pythonpeixun/article/blob/master/python/hours_216.md)
 
 [感恩！感谢黄哥Python培训学员的支持和肯定。](https://github.com/pythonpeixun/article/blob/master/python/thanks.md)

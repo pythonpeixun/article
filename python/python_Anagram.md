@@ -48,6 +48,6 @@ Anagram，翻译成中文为"相同字母异序词"。
 
 
 
-[216小时学会Python](https://github.com/pythonpeixun/article/blob/master/python/hours_216.mdown)
+[216小时学会Python](https://github.com/pythonpeixun/article/blob/master/python/hours_216.md)
 [感恩！感谢黄哥Python培训学员的支持和肯定。](https://github.com/pythonpeixun/article/blob/master/python/thanks.md)
 
