@@ -92,4 +92,4 @@
 		    save_img_to_file(5)
 
 
-[216小时学会Python](https://github.com/pythonpeixun/article/blob/master/python/hours_216.mdown)
+[216小时学会Python](https://github.com/pythonpeixun/article/blob/master/python/hours_216.md)
