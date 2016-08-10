@@ -1,6 +1,6 @@
 # Python 类组合(composition)和聚合(aggregation)
 
-[从下面一段代码开始说事。知乎上有人问这个问题，说代码看不懂。](https://www.zhihu.com/question/49398036)
+[从下面一段代码开始说起，知乎上有人问这个问题，说代码看不懂。](https://www.zhihu.com/question/49398036)
 
 		#coding:utf-8
 		#书中一个例子简单的短期利率类，折现是金融学中最基本的概念之一，在连续折现的固定短期利率世界中，日期t>0时未来现金流与当前日期t=0之间的折现因子为Do(t)=e（-rt）次方
@@ -145,7 +145,7 @@
  
 组合(composition)：也表示类之间整体和部分的关系，但是组合关系中部分和整体具有统一的生存期。一旦整体对象不存在，部分对象也将不存在。部分对象与整体对象之间具有共生死的关系。
 
-请看下面的代码。类组合，Computer实例对象不存在了，内部组合的Cpu实例也不存在。聚合Computer实例对象不存在了，从__init__方法传入的Cpu实例不属Computer实例对象存在不存在的影响。
+请看下面的代码。类组合，Computer实例对象不存在了，内部组合的Cpu实例也不存在。聚合Computer实例对象不存在了，从初始化方法传入的Cpu实例不属Computer实例对象存在不存在的影响。
 
 	#! /usr/bin/env python
 	# coding:utf-8
@@ -202,6 +202,6 @@
 
 ![](aggregation.png)
 
-[216小时学会Python](https://github.com/pythonpeixun/article/blob/master/python/hours_216.md)
+[216小时学会Python](https://github.com/pythonpeixun/article/blob/master/python/hours_216.md)    
 [点击黄哥python培训试看视频播放地址](https://github.com/pythonpeixun/article/blob/master/python_shiping.md)
 
