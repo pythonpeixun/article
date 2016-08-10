@@ -1,6 +1,6 @@
 # Python 类组合(composition)和聚合(aggregation)
 
-从下面一段代码开始说事。知乎上有人问这个问题，说代码看不懂。
+[从下面一段代码开始说事。知乎上有人问这个问题，说代码看不懂。](https://www.zhihu.com/question/49398036)
 
 		#coding:utf-8
 		#书中一个例子简单的短期利率类，折现是金融学中最基本的概念之一，在连续折现的固定短期利率世界中，日期t>0时未来现金流与当前日期t=0之间的折现因子为Do(t)=e（-rt）次方
@@ -203,3 +203,5 @@
 ![](aggregation.png)
 
 [216小时学会Python](https://github.com/pythonpeixun/article/blob/master/python/hours_216.md)
+[点击黄哥python培训试看视频播放地址](https://github.com/pythonpeixun/article/blob/master/python_shiping.md)
+
