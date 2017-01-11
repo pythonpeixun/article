@@ -152,7 +152,7 @@ Python 核心编程 第二版
        学员提问不是同一时间提问，所以不存在答疑的问题。
 
     (3) 请看学员的评价    
-    [感恩！感谢黄哥Python培训学员的支持和肯定。](https://github.com/pythonpeixun/article/blob/master/python/thanks.md)
+      [感恩！感谢黄哥Python培训学员的支持和肯定。](https://github.com/pythonpeixun/article/blob/master/python/thanks.md)
     
 
 
