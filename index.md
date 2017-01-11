@@ -150,7 +150,7 @@ Python 核心编程 第二版
    （2）答疑由黄哥亲自答疑，有的朋友疑问是能服务得过来吗？    
        黄哥的回答是：一般都能及时回复，不能及时回复的，24小时内回复。
        学员提问不是同一时间提问，所以不存在答疑的问题。
-
+    
     (3) 请看学员的评价    
       [感恩！感谢黄哥Python培训学员的支持和肯定。](https://github.com/pythonpeixun/article/blob/master/python/thanks.md)
     
