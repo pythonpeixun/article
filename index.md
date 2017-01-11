@@ -142,18 +142,19 @@ Python 核心编程 第二版
   上面的信息都是真实存在，大家都可以查看。
 
 3、几个问题    
-   （1）上视频培训，还是上面授的问题。    
 
-   [参加编程培训(Python、Java)面授到底值不值？](https://pythonpeixun.github.io/2017/01/06/%E9%9D%A2%E6%8E%88%E5%88%B0%E5%BA%95%E5%80%BC%E4%B8%8D%E5%80%BC/)
+（1）上视频培训，还是上面授的问题。    
+
+[参加编程培训(Python、Java)面授到底值不值？](https://pythonpeixun.github.io/2017/01/06/%E9%9D%A2%E6%8E%88%E5%88%B0%E5%BA%95%E5%80%BC%E4%B8%8D%E5%80%BC/)
 
 
-   （2）答疑由黄哥亲自答疑，有的朋友疑问是能服务得过来吗？    
-       黄哥的回答是：一般都能及时回复，不能及时回复的，24小时内回复。
-       学员提问不是同一时间提问，所以不存在答疑的问题。
-    
-    (3) 请看学员的评价    
-      [感恩！感谢黄哥Python培训学员的支持和肯定。](https://github.com/pythonpeixun/article/blob/master/python/thanks.md)
-    
+（2）答疑由黄哥亲自答疑，有的朋友疑问是能服务得过来吗？    
+   黄哥的回答是：一般都能及时回复，不能及时回复的，24小时内回复。
+   学员提问不是同一时间提问，所以不存在答疑的问题。
+
+(3) 请看学员的评价    
+  [感恩！感谢黄哥Python培训学员的支持和肯定。](https://github.com/pythonpeixun/article/blob/master/python/thanks.md)
+
 
 
 
