@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> {{title}} </title>
+  	<meta name="marboo-template" content="org.html">
+	<meta name="viewport" content="width=320, initial-scale=1.0, user-scalable=yes" charset="utf-8">
+        <meta charset="utf-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="date" content="2014-07-23 08:21:34" />
+        <meta name="generator" content="Marboo 0.10: http://marboo.io" />
+        <link rel="stylesheet" type="text/css" href="/.media/css/bootstrap.min.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="/.media/css/pygmentize-default.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="/.media/css/marboo.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="/.media/lib/org.js/tweak.css" media="screen" />
+
+	<link rel="stylesheet" href="/.media/lib/highlight.js/styles/github.css">
+    </head>
+    <body style="background-color:transparent">
+        <!--
+            # This file is created from $MARBOO_HOME/.media/starts/default.html
+            # 本文件由 $MARBOO_HOME/.media/starts/default.html 复制而来
+        -->
+        <!-- your code here -->
+        <textarea id="source" style="display:none">{{content}}</textarea>
+        <div id="preview"></div>
+	<script type="text/javascript" src="/.media/lib/org.js/org.js"></script>
+	<script type="text/javascript">
+          var src = document.getElementById("source").value;
+	  var orgParser = new Org.Parser();
+	  var orgDocument = orgParser.parse(src);
+	  var orgHTMLDocument = orgDocument.convert(Org.ConverterHTML, {
+	  headerOffset: 1,
+	  exportFromLineNumber: false,
+	  suppressSubScriptHandling: false,
+	  suppressAutoLink: false
+	  });
+          document.getElementById("preview").innerHTML = orgHTMLDocument;
+	</script>
+
+	<script type="text/javascript" src="/.media/js/jquery-2.0.0.min.js"></script>
+	<script src="/.media/lib/highlight.js/highlight.pack.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	  $('code').each(function(i, e) {hljs.highlightBlock(e)});
+	  hljs.initHighlightingOnLoad();
+	</script>
+    </body>
+</html>

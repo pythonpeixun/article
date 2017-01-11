@@ -1,0 +1,19 @@
+{
+    "filename": "{{title}}",
+    "created_at": "{{date}}",
+    "author": "{{author}}",
+
+    "request": {
+        "url": ""
+    },
+
+    "json2csv": {
+        "array_key_path": "l",
+        "properties": [],
+        "titles": []
+    },
+
+    "pipline": ["json2csv", "csv2html", "marbooTemplate"],
+    
+    "description": ""
+}

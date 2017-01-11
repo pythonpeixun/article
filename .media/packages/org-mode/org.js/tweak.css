@@ -1,0 +1,79 @@
+body {
+    padding-top: 10px;
+}
+
+/* Panel */
+
+#org-input-closer {
+    font-weight: bold;
+    padding: 3px 8px;
+    text-align: right;
+    cursor: pointer;
+}
+
+#panel, #org-input {
+    background-color: black;
+    opacity: 0.9;
+    color: white;
+}
+
+#panel {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+#org-input {
+    min-height: 300px;
+    min-width: 400px;
+    font-family : Menlo, "Bitstream Vera Sans Mono", "DejaVu Sans Mono", Monaco, Consolas, monospace;
+}
+
+/* Code */
+
+pre code {
+    background-color: inherit;
+    color: inherit;
+    padding: 0;
+}
+
+/* Result */
+
+#result {
+    border                : 1px solid #ccc;
+    padding               : 4px;
+    overflow              : auto;
+}
+
+#result > * {
+    padding-left: 4px;
+}
+
+/* TODO status*/
+span.task-status {
+    padding : 0 0.2em;
+    margin-right : 10px;
+    color : white;
+}
+
+span.task-status.todo {
+    color: white;
+    background-color: rgb(180, 0, 0);
+}
+
+span.task-status.done {
+    color: white;
+    background-color: rgb(0, 200, 31);
+}
+
+/* Section Number */
+.section-number {
+    padding-right : 10px;
+    font-weight   : bold;
+    color         : rgb(183, 183, 183);
+    font-style    : italic;
+}
+
+.org-subscript-child {
+    font-size : 85%;
+}

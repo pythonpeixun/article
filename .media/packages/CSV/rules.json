@@ -1,0 +1,16 @@
+{
+    "disabled": false,
+    "created_at": "2015-09-02 22:47:45",
+    "author": "amoblin",
+    "name": "",
+    "file_type": "",
+    "pips": [{
+        "name": "csv2html"
+    }],
+    "piplines": [{
+	"filename": "*.csv",
+	"pipline": ["csv2html", "marbooTemplate"]
+    }],
+
+    "comment": "********************* THE END *****************************"
+}

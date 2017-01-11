@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> {{title}} </title>
+	<meta name="marboo-template" content="text template">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" charset="utf-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="generator" content="Marboo 0.10: http://marboo.io" />
+	<meta name="keywords" content="Marboo" />
+        <meta name="date" content="2015-05-29 16:39:57" />
+	<!--
+	<meta http-equiv="refresh" content="5" />
+	-->
+
+        <link rel="stylesheet" type="text/css" href="/.media/css/bootstrap.min.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="/.media/css/marboo.css" media="screen" />
+
+        <script type="text/javascript">
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-75936-16']);
+          _gaq.push(['_trackPageview']);
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+            window.onbeforeunload = function() {
+                //marboo.save(document.getElementById("source").value);
+            }
+            var getContent = function () {
+                return document.getElementById("source").value
+            }
+        </script>
+    </head>
+    <body>
+      <pre style="background-color:transparent; border:0;">
+        {{content}}
+      </pre>
+      <script type="text/javascript" src="/.media/js/Autolinker.min.js"></script>
+      <script type="text/javascript">
+	var myTextEl = document.body;
+	myTextEl.innerHTML = Autolinker.link( myTextEl.innerHTML );
+      </script>
+    </body>
+</html>

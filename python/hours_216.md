@@ -24,3 +24,5 @@
 [部分免费Python免费视频](https://github.com/pythonpeixun/article/blob/master/python_shiping.md)
 
 [感恩！感谢黄哥Python培训学员的支持和肯定。](https://github.com/pythonpeixun/article/blob/master/python/thanks.md)
+
+![](答疑价值.png)

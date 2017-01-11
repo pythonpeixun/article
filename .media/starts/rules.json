@@ -1,0 +1,15 @@
+{
+    "disabled": false,
+    "name": "",
+    "file_type": "",
+    "pips": [{
+	"name": "",
+	"path": ""
+    }],
+    "piplines": [{
+	"filename": "",
+	"pipline": []
+    }],
+
+    "comment": "********************* THE END *****************************"
+}

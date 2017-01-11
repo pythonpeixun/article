@@ -1,0 +1,16 @@
+{
+    "filename": "{{title}}",
+    "created_at": "{{date}}",
+
+    "name": "",
+    "file_type": "",
+    "pips": [{
+	"name": "xxx2html",
+	"path": "converts/xxx2html.sh"
+    }],
+    "piplines": [{
+	"filename": "*.xxx",
+	"init": "starts/default.xxx",
+	"pipline": ["xxx2html", "marbooTemplate"]
+    }]
+}

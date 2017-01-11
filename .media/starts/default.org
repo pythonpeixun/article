@@ -1,0 +1,9 @@
+#+TITLE: {{title}}
+#+AUTHOR: amoblin
+#+EMAIL: amoblin@gmail.com
+#+DATE: <{{date}}>
+#+OPTIONS: ^:{}
+
+* 请修改模版文件
+** This file is created from $MARBOO_HOME/.media/starts/default.org
+** 本文件由 $MARBOO_HOME/.media/starts/default.org 复制而来

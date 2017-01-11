@@ -1,0 +1,41 @@
+{
+    "disabled": false,
+    "name": "Markdown",
+
+    "created_at": "2015-09-02 07:17:39",
+    "author": "amoblin",
+
+    "file_type": "Markdown",
+
+    "pips": [{
+        "name": "md2html"
+    },{
+        "name": "markdownTemplate",
+        "template_path": "md.html"
+    },{
+        "name": "remarkTemplate",
+        "template_path": "remark.md.html"
+    },{
+        "name": "mathJaxTemplate",
+        "template_path": "tex.md.html"
+    }],
+
+    "piplines": [{
+        "init": "default.md",
+        "pipline": ["md2html", "markdownTemplate"]
+    },{
+        "filename": "*.remark.md",
+        "init": "default.remark.md",
+        "pipline": ["remarkTemplate"]
+    },{
+        "filename": "*.tex.md",
+        "init": "default.md",
+        "pipline": ["md2html", "mathJaxTemplate"]
+    },{
+        "filename": "*.apib",
+        "init": "default.apib",
+        "pipline": ["md2html", "markdownTemplate"]
+    }],
+    
+    "description": ""
+}

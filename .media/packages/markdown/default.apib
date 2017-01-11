@@ -1,0 +1,28 @@
+FORMAT: 1A
+HOST: https://api.mywebsite.com
+
+# {{title}} [/api]
+
++ Request
+    + Headers
+            Content-Type: application/json
+    + Body
+            {
+                "title": "My new note",
+                "body": "..."
+            }
+
++ Parameters
+
+    + id (required, string) ... The note ID
+
++ Response 201
+
++ Response 400
+    + Headers
+            Content-Type: application/json
+
+    + Body
+            {
+                "error": "Invalid title"
+            }

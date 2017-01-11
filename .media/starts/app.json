@@ -1,0 +1,19 @@
+{
+    "description": "用户自定义配置文件",
+    "filename": "{{title}}",
+    "created_at": "{{date}}",
+
+    "request": {
+        "url": "http://news-at.zhihu.com/api/4/news/latest",
+        "method": "GET",
+        "params": {},
+        "content": ""
+    },
+
+    "middle_datasource":["stories"],
+    "middle_title": "title",
+    "middle_url": "id",
+
+    
+    "comment": "The End"
+}

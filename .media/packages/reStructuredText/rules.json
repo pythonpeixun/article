@@ -1,0 +1,20 @@
+{
+    "disabled": false,
+    "name": "reStructuredText",
+
+    "created_at": "2015-09-02 22:37:39",
+    "author": "amoblin",
+
+    "file_type": "reStructuredText",
+
+    "pips": [{
+        "name": "rst2html"
+    }],
+
+    "piplines": [{
+        "init": "default.rst",
+        "pipline": ["rst2html", "marbooTemplate"]
+    }],
+
+    "comment": "********************* THE END *****************************"
+}

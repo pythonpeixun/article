@@ -1,0 +1,20 @@
+{
+    "disabled": false,
+    "name": "Txt2tags",
+
+    "created_at": "2015-09-02 22:37:39",
+    "author": "amoblin",
+
+    "file_type": "Txt2tags",
+    
+    "pips": [{
+        "name": "txt2tags"
+    }],
+
+    "piplines": [{
+        "init": "default.t2t",
+        "pipline": ["txt2tags", "marbooTemplate"]
+    }],
+
+    "comment": "********************* THE END *****************************"
+}

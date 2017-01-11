@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> {{title}} </title>
+	<meta name="marboo-template" content="tex.md.html">
+	<meta name="viewport" content="width=320, initial-scale=1.0, user-scalable=yes" charset="utf-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="generator" content="Marboo 0.10: http://marboo.io" />
+	<meta name="keywords" content="Marboo" />
+        <meta name="date" content="2013-03-20 14:31:01" />
+
+        <!-- highlight.js -->
+        <link rel="stylesheet" href="/.media/lib/highlight.js/styles/github.css">
+
+        <link rel="stylesheet" type="text/css" href="/.media/css/bootstrap.min.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="/.media/css/marboo.css" media="screen" />
+
+        <script type="text/javascript">
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-75936-16']);
+          _gaq.push(['_trackPageview']);
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+            window.onbeforeunload = function() {
+                //marboo.save(document.getElementById("source").value);
+            }
+            var getContent = function () {
+                return document.getElementById("source").value
+            }
+        </script>
+    </head>
+    <body>
+      {{content}}
+      <script type="text/javascript" src="/.media/js/jquery-2.0.0.min.js"></script>
+      <script src="/.media/lib/highlight.js/highlight.pack.js" type="text/javascript"></script>
+      <script type="text/javascript">
+	$('code').each(function(i, e) {hljs.highlightBlock(e)});
+	hljs.initHighlightingOnLoad();
+      </script>
+	<script type="text/x-mathjax-config">
+	  MathJax.Hub.Config({
+	  tex2jax: {inlineMath: [["$","$"],["\\(","\\)"]]}
+	  });
+	</script>
+      <!--
+      <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+      -->
+      <script type="text/javascript" src="http://cdn.bootcss.com/mathjax/2.4.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    </body>
+</html>

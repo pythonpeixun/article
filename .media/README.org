@@ -1,0 +1,23 @@
+#+TITLE: Marboo Main Config
+#+AUTHOR: amoblin
+#+EMAIL: amoblin@gmail.com
+#+DATE: 2014-01-15 22:42:20
+#+OPTIONS: ^:{}
+
+* Supported files with:
+
+- markdown
+- reStructuredText
+- Org-mode
+- Textile
+- txt2tag
+- HTML
+- zip
+
+* Syntax Highlight for Code
+
+* Extend Packages
+** DONE Phot Gallery
+   CLOSED: [2014-05-19 Mon 22:59]
+
+

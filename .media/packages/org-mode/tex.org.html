@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> {{title}} </title>
+  	<meta name="marboo-template" content="org.html">
+	<meta name="viewport" content="width=320, initial-scale=1.0, user-scalable=yes" charset="utf-8">
+        <meta charset="utf-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="date" content="2014-07-23 08:21:34" />
+        <meta name="generator" content="Marboo 1.0: http://marboo.io" />
+        <link rel="stylesheet" type="text/css" href="{{root}}/.media/css/bootstrap.min.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="{{root}}/.media/css/pygmentize-default.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="{{root}}/.media/css/marboo.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="{{root}}/.media/packages/org-mode/org.js/tweak.css" media="screen" />
+
+        <!-- prism.js -->
+        <link rel="stylesheet" href="{{root}}/.media/lib/prismjs/prism.css">
+    </head>
+    <body style="background-color:transparent">
+        <!--
+            # This file is created from $MARBOO_HOME/.media/starts/default.html
+            # 本文件由 $MARBOO_HOME/.media/starts/default.html 复制而来
+        -->
+        <!-- your code here -->
+        <textarea id="source" style="display:none">{{content}}</textarea>
+        <div id="preview"></div>
+	<script type="text/javascript" src="{{root}}/.media/packages/org-mode/org.js/org.js"></script>
+	<script type="text/javascript">
+          var src = document.getElementById("source").value;
+	  var orgParser = new Org.Parser();
+	  var orgDocument = orgParser.parse(src);
+	  var orgHTMLDocument = orgDocument.convert(Org.ConverterHTML, {
+	  headerOffset: 1,
+	  exportFromLineNumber: false,
+	  suppressSubScriptHandling: false,
+	  suppressAutoLink: false
+	  });
+          document.getElementById("preview").innerHTML = orgHTMLDocument;
+	</script>
+
+	<script type="text/javascript" src="{{root}}/.media/js/jquery-2.0.0.min.js"></script>
+        <script src="{{root}}/.media/lib/prismjs/prism.js" type="text/javascript"></script>
+        <script type="text/javascript">
+          $('code').addClass("line-numbers");
+        </script>
+	<script type="text/x-mathjax-config">
+	  MathJax.Hub.Config({
+	  tex2jax: {inlineMath: [["$","$"],["\\(","\\)"]]}
+	  });
+	</script>
+        <!--
+            <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+            -->
+        <script type="text/javascript" src="http://cdn.bootcss.com/mathjax/2.4.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    </body>
+</html>

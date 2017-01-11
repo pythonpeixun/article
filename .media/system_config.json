@@ -1,0 +1,224 @@
+{
+    "description": "DO NOT modify this file. If you want custom settings, modify the marboo_config.json, writting like this",
+    "description_cn": "不要修改这个文件。自定义的话，修改 marboo_config.json 文件，格式参考本文。",
+    "created_by_marboo_version": "1.0",
+
+    "author": "amoblin",
+    "email": "amoblin@gmail.com",
+
+    "show_media_dir": false,
+    "show_recent_files_dir": true,
+
+    "new_file_types": [{
+        "display_name": "MarkDown",
+        "file_extension": "md"
+    },{
+        "display_name": "reStructured Text",
+        "file_extension": "rst"
+    },{
+        "display_name": "Org-mode",
+        "file_extension": "org"
+    },{
+        "display_name": "Text",
+        "file_extension": "txt"
+    },{
+        "display_name": "Custom",
+        "file_extension": ""
+    }],
+
+    "generate_html_with_file_extension": false,
+    
+    "folder_viewer": "Finder",
+    "folder_terminal_viewer": "Terminal",
+    "file_editor": "Default",
+    "web_browser": "Default",
+
+    "init_content_for_commandline": false,
+
+    "comment": "lock view时其他文件修改时是否刷新当前文件",
+    "refresh_file_in_lock_view": false,
+    
+    "only_show_files": [],
+    "ignored_dirs": ["Pods", "_book", "xcuserdata", ".git"],
+    
+    "max_highlighted_file_size": 1024,
+    "max_file_process_number_in_one_second": 1,
+
+    "url_mappings": [{
+        "path": "/Guide.localized",
+        "server": "GitBook"
+    }],
+
+    "rules": [{
+        "file_category": "text",
+        "pips": [{
+            "name": "varReplace",
+        },{
+            "name": "highlight"
+        },{
+            "name": "selfRender"
+        },{
+            "name": "executeFile"
+        },{
+            "name": "generateFileListFromContent"
+        },{
+            "name": "getContentFromURL"
+        },{
+            "name": "json2csv"
+        },{
+            "name": "html2text"
+        },{
+            "name": "marbooTemplate",
+            "template_path": "views/marboo.html"
+        },{
+            "name": "textTemplate",
+            "template_path": "views/textTemplate.html"
+        },{
+            "name": "highlightTemplate",
+            "template_path": "views/highlight.html"
+        },{
+            "name": "shiftRight",
+            "output_file_extension": "code"
+        },{
+            "name": "code2md",
+            "output_file_extension": "md"
+        },{
+            "name": "k2k",
+            "output_file_extension": "txt"
+        }],
+        "piplines": [{
+            "init": "starts/default",
+            "pipline": ["highlight", "highlightTemplate"]
+	},{
+	    "filename": "*.app.json",
+	    "init": "starts/app.json",
+            "pipline": ["selfRender"]
+        },{
+	    "filename": "*.datasource.json",
+	    "init": "starts/datasource.json",
+            "pipline": ["generateFileListFromContent", "highlight", "highlightTemplate"]
+        },{
+            "filename": "*.request.json",
+            "init": "starts/request.json",
+            "pipline": ["selfRender"]
+        },{
+            "filename": "marboo_config.json",
+            "init": "starts/marboo_config.json"
+        },{
+            "filename": "rules.json",
+            "init": "starts/rules.json"
+        }]
+    },{
+        "file_category": "image",
+        "pips": [{
+            "name": "displayImage"
+	}],
+        "piplines": [{
+            "pipline": ["displayImage", "marbooTemplate"]
+	}]
+    },{
+        "file_category": "audio",
+        "pips": [{
+            "name": "displayAudio",
+            "path": "converts/audio2html.sh"
+        }],
+        "piplines": [{
+            "pipline": ["displayAudio", "marbooTemplate"]
+        }]
+    },{
+        "file_category": "video",
+        "pips": [{
+            "name": "displayVideo",
+            "path": "converts/video2html.sh"
+	},{
+	    "name": "displayFlash",
+	    "path": "converts/flash2html.sh"
+        }],
+        "piplines": [{
+            "pipline": ["displayVideo", "marbooTemplate"]
+	},{
+	    "filename": "*.swf",
+	    "pipline": ["displayFlash", "marbooTemplate"]
+	}]
+    },{
+        "file_category": "application",
+        "pips": [{
+            "name": ""
+        }],
+        "piplines": [{
+            "pipline": ["showAlert", "alertTemplate"]
+        },{
+            "filename": "*.pdf",
+            "editor": "Preview"
+        }]
+    },{
+	"file_type": "Html",
+        "piplines": [{
+            "init": "starts/default.html"
+        }]
+    },{
+        "file_type": "Custom",
+        "piplines": [{
+            "filename": "*.exec.*",
+            "pipline": ["executeFile", "highlight", "highlightTemplate"]
+        },{
+            "filename": "*.run.*",
+            "pipline": ["executeFile", "highlight", "highlightTemplate"]
+        }]
+    },{
+        "piplines": [{
+            "filename": "*.txt",
+            "pipline": ["textTemplate"]
+        }]
+    },{
+        "file_type": "VimWiki",
+        "piplines": [{
+            "filename": "*.wiki",
+            "editor": "MacVim"
+        }]
+    },{
+        "file_type": "Archived File",
+        "pips": [{
+            "name": "zipList",
+            "path": "converts/zip-list.sh",
+            "output_file_extension": "md"
+        },{
+            "name": "tarList",
+            "path": "converts/tar-list.sh",
+            "output_file_extension": "md"
+        }],
+       "piplines": [{
+            "filename": "*.zip",
+            "pipline": ["zipList", "md2html", "markdownTemplate"]
+        },{
+            "filename": "*.tar",
+            "pipline": ["tarList", "md2html", "markdownTemplate"]
+       },{
+            "filename": "*.tar.bz",
+            "pipline": ["tarList", "md2html", "markdownTemplate"]
+        },{
+           "filename": "*.tar.gz",
+            "pipline": ["tarList", "md2html", "markdownTemplate"]
+        },{
+            "filename": "*.epub",
+            "editor": "Default",
+           "pipline": ["zipList", "md2html", "markdownTemplate"]
+        },{
+            "filename": "*.docx",
+            "pipline": ["zipList", "md2html", "markdownTemplate"]
+        }]
+    },{
+        "file_type": "System UI",
+        "pips": [{
+            "name": "showAlert",
+            "path": "converts/alert.sh"
+        },{
+            "name": "alertTemplate",
+            "template_path": "views/alert.html"
+        }],
+        "piplines": [{
+            "filename": "*.alert.*",
+            "pipline": ["showAlert", "alertTemplate"]
+        }]
+    }]
+}

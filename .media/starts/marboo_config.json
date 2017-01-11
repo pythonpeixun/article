@@ -1,0 +1,64 @@
+{
+    "filename": "{{title}}",
+    "created_at": "{{date}}",
+    "description": "用户自定义配置文件",
+    
+    "attation": "注意这里的引号一定要是英文引号。TextEdit中可能会出现输入的英文引号变为中文引号，从而导致配置文件无法加载。",
+    
+    "comment": "不监控以下目录下的变化",
+    "ignored_dirs": [
+    ],
+
+    "comment": "在中栏显示的文件后缀类型，为空时表示全部文件后缀类型都显示。",
+    "only_show_files": [],
+    "_only_show_files": ["*.md", "*.mkd", "*.markdown"],
+    
+    "comment": "监控以下软链目录下的变化",
+    "symbollink_dirs": [
+    ],
+    
+    "comment": "在左栏显示Marboo配置文件夹",
+    "show_media_dir": false,
+
+    "comment": "在左栏显示最近打开的文件",
+    "show_recent_files_dir": true,
+ 
+    "comment": "设置目录浏览器。可以设置Default(或者写Finder也可，都代表用Finder打开)或Terminal等",
+    "folder_viewer": "Finder",
+    "1.folder_viewer": "Default",
+    "2.folder_viewer": "Terminal",
+
+    "comment": "设置文件编辑器。Default(或者写Finder也可)代表Finder中关联的编辑器，也可以设置已安装的编辑器如 Emacs, MacVim, TextMate, Mou等",
+    "file_editor": "Default",
+    "0.file_editor": "Do as Finder do",
+    "1.file_editor": "Finder",
+    "2.file_editor": "Emacs",
+    "3.file_editor": "MacVim",
+    "4.file_editor": "Atom",
+    "5.file_editor": "Mou",
+    "6.file_editor": "Sublime Text",
+    "7.file_editor": "Sublime Text 2",
+    "8.file_editor": "TextMate",
+
+    "folder_terminal_viewer": "Terminal",
+
+    "comment": "设置网页浏览器。Default代表默认浏览器，也可以设置已安装的浏览器如Google Chrome, Firefox等",
+    "web_browser": "Default",
+    "1.web_browser": "Google Chrome",
+    "2.web_browser": "Firefox",
+    "3.web_browser": "Safari",
+    "4.web_browser": "QQBrowser",
+    
+    "comment": "设置对于命令下创建的文件，是否按照Marboo配置进行初始化",
+    "init_content_for_commandline": false,
+
+    "comment": "生成HTML时保留原文件的扩展名",
+    "generate_html_with_file_extension": false,
+    
+    "comment": "********************** Rules Begin ******************",
+
+
+
+    
+    "comment": "********************** THE END ******************"
+}

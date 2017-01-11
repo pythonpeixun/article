@@ -1,0 +1,12 @@
+#+TITLE: {{title}}
+#+AUTHOR: {{author}}
+#+EMAIL: {{email}}
+#+DATE: {{date}}
+#+OPTIONS: ^:{} toc:nil num:nil
+# This file is created by Marboo<http://marboo.io> template file $MARBOO_HOME/.media/starts/default.reveal.org
+# 本文件由 Marboo<http://marboo.io> 模板文件 $MARBOO_HOME/.media/starts/default.reveal.org 创建
+
+#+REVEAL_ROOT: /.media/lib/reveal.js-2.6.2
+#+REVEAL_TRANS: linear
+#+REVEAL_THEME: white-red
+

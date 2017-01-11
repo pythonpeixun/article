@@ -1,0 +1,64 @@
+{
+    "disabled": false,
+    "name": "Programming Languages",
+
+    "created_at": "2015-09-02 22:37:39",
+    "author": "amoblin",
+
+    "file_type": "",
+    "pips": [{
+	"name": "",
+	"path": ""
+    }],
+    "piplines": [{
+	"filename": "Podfile",
+	"init": "Podfile"
+    },{
+	"filename": "Makefile",
+	"init": "Makefile"
+    },{
+	"filename": "Rakefile",
+	"init": "Rakefile"
+    },{
+	"filename": "Jakefile",
+	"init": "Jakefile"
+    },{
+        "filename": "Gemfile",
+        "init": "Gemfile"
+    },{
+        "filename": "Dockerfile",
+        "init": "Dockerfile"
+    },{
+        "filename": "*.c",
+        "init": "default.c"
+    },{
+        "filename": "*.m",
+        "init": "default.m"
+    },{
+        "filename": "*.h",
+        "init": "default.h"
+    },{
+        "filename": "*.sh",
+        "init": "default.sh"
+    },{
+        "filename": "*.py",
+        "init": "default.py"
+    },{
+        "filename": "*.rb",
+        "init": "default.rb"
+    },{
+        "filename": "*.go",
+        "init": "default.go"
+    },{
+        "filename": "*.swift",
+        "init": "default.swift"
+    },{
+	"filename": "*.js",
+	"init": "default.js"
+    },{
+	"filename": "*.json",
+	"init": "default.json"
+    }],
+    
+    "comment": "********************* THE END *****************************"
+}

@@ -1,0 +1,19 @@
+# -*- coding: utf-8 -*-
+# file name: Podfile
+# create date: {{date}}
+# author: {{author}}
+# This file is created by Marboo<http://marboo.io> template file $MARBOO_HOME/.media/starts/Podfile
+# 本文件由 Marboo<http://marboo.io> 模板文件 $MARBOO_HOME/.media/starts/Podfile 创建
+ 
+platform :ios, "7.0"
+source "https://github.com/CocoaPods/Specs.git"
+
+pod "ReactiveCocoa", "~> 2.3.1"
+
+pod "ReactiveViewModel", "~> 0.2"
+
+pod "UMengAnalytics", "~> 3.1.8"
+
+pod "UMengFeedback", "~> 2.0"
+
+pod "Masonry"

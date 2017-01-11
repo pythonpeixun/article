@@ -1,0 +1,20 @@
+{
+    "disabled": false,
+    "name": "VexTab",
+
+    "created_at": "2015-09-02 22:37:39",
+    "author": "amoblin",
+
+    "file_type": "",
+    "pips": [{
+        "name": "vextabTemplate",
+        "template_path": "vextab.txt.html",
+    }],
+    
+    "piplines": [{
+        "filename": "*.vextab.txt",
+        "pipline": ["vextabTemplate"]
+    }],
+
+   "comment": "********************* THE END *****************************"
+}
