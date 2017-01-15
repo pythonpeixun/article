@@ -1,4 +1,4 @@
-# 黄哥Python培训  服务网页 咨询qq:1465376564 黄老师
+# 黄哥Python培训 qq:1465376564
 
 
 ## [黄哥Python远程视频培训班](https://github.com/pythonpeixun/article/blob/master/index.md)
@@ -16,8 +16,6 @@
 ## [黄哥漫谈Python 闭包](https://github.com/pythonpeixun/article/blob/master/python/talk_about_Closure.md)
 ## [Python 类组合(composition)和聚合(aggregation)](https://github.com/pythonpeixun/article/blob/master/python/class_composition_aggregation.md)
 ## [216小时学会Python](https://github.com/pythonpeixun/article/blob/master/python/hours_216.md)
-## []()
-## []()
 
 ## [跟黄哥学习python第一章](https://github.com/pythonpeixun/article/blob/master/python/learn_python_follow_brother_huang_1.md)
 
