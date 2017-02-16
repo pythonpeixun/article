@@ -1,14 +1,14 @@
 # Python 抽取word文档中的文本。
 
 ## 引言
-   一个付费答疑的会员，咨询我如何将word文档中的文本用Python抽取。
-   在一个星期前问我，因为本人没有处理过这个问题，搜到一些解决方案给他。
-   1、[python-docx](http://python-docx.readthedocs.io/en/latest/user/documents.html)
-   2、windows下的win32com
-   python-docx 只能处理docx的文件，他的word文件是doc格式。
-   win32com,他没有搞定，我没有windows，也没有打算用这个库。
-   本来答疑没有帮助写代码的服务，但他搞一个星期没有搞定，黄哥基于职业道德，
-   来帮助他搞定这个事。
+   一个付费答疑的会员，咨询我如何将word文档中的文本用Python抽取。    
+   在一个星期前问我，因为本人没有处理过这个问题，搜到一些解决方案给他。    
+   1、[python-docx](http://python-docx.readthedocs.io/en/latest/user/documents.html)    
+   2、windows下的win32com    
+   python-docx 只能处理docx的文件，他的word文件是doc格式。     
+   win32com,他没有搞定，我没有windows，也没有打算用这个库。      
+   本来答疑没有帮助写代码的服务，但他搞一个星期没有搞定，黄哥基于职业道德，    
+   来帮助他搞定这个事。    
 
 ## 下面来分享一下是怎么在10分钟内搞定他一个星期搞不定的问题。
 
