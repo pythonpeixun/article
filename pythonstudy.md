@@ -9,7 +9,7 @@
 
 #编程思路一：
     经常有人问，一个文本文件，要抽取多少行以后的文本。
-    相信计数循环，大家都看得懂，也会写。下面的代码就是利用记数循环来解决这个问题。
+    相信计数循环，大家都看得懂，也会写。下面的代码就是利用计数循环来解决这个问题。
 
     代码一：
     一个几M的文本文件，需要每隔100行写到新的文件中。
@@ -52,7 +52,7 @@
 #编程思路二：
     #coding:utf-8
     """
-    本代码由迪艾姆公司黄老师所写，思路大家自己看代码。
+    本代码由黄哥Python培训，黄老师所写，思路大家自己看代码。
 
     抓了a,b,c,d4名犯罪嫌疑人.其中有一名是小偷，审讯中：
             a说我不是小偷
@@ -78,13 +78,13 @@
      这个需要一个过程，也不要操之过急。
      看一下这些视频，可能对你有些帮助。
 
-[迪艾姆python培训_python编程思路－  ]
+[黄哥python培训_python编程思路－  ]
 (http://v.youku.com/v_show/id_XNTY0MDA5MDMy.html)
 
-[迪艾姆python培训_python编程思路二  ]
+[黄哥python培训_python编程思路二  ]
 (http://v.youku.com/v_show/id_XNTY0MDE1NzA0.html)
 
 [python爬虫之采集搜素引擎联想词 ]
 (http://www.tudou.com/programs/view/SXgshk-sYbw/)
 
-[广告：如果自学有困难，建议参加迪艾姆python培训，可以节省学习成本。](https://github.com/pythonpeixun/article/blob/master/index.md)
+[广告：如果自学有困难，建议参加黄哥Python培训，可以节省学习成本。](https://github.com/pythonpeixun/article/blob/master/index.md)
