@@ -14,7 +14,7 @@
 >2、第二个阶段：按照web开发的规律，快速掌握web开发，熟悉一种框架的使用。
 
 # 费用：6800元  培训形式：80讲视频+作业训练+项目训练+qq答疑 交费即可参加
-#学习周期6个月：答疑1年。
+# 学习周期6个月：答疑1年。
 #联系方式 qq:1465376564 电话：18610508486 黄老师
 
 
@@ -29,7 +29,7 @@
 6、Code Blocks  
 7、Language Constructs  
 
-##数据类型 Data Types  
+## 数据类型 Data Types  
 >1、Numeric Values  
 2、Strings  
 3、Booleans  
@@ -103,9 +103,9 @@ The Anti-Sort
 ## Arrays as Stacks, Queues and Sets  
 >Set Functionality  
 
-##Dereferencing Arrays
+## Dereferencing Arrays
 
-#html css javascript 基础知识介绍   
+# html css javascript 基础知识介绍   
 
 ## web编程 Web Programming
 >Anatomy of a Web Page  
