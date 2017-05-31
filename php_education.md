@@ -1,26 +1,25 @@
-#php培训提纲
-#培训的目标：培训学员能自己写代码解决问题、能独立开发web网站。
-#第一期招生人数：30人 开课时间 2016年4月12日
-#前言：  
+# php培训提纲
+# 培训的目标：培训学员能自己写代码解决问题、能独立开发web网站。
+# 前言：  
 
 >黄哥见过部分朋友，会用PHP开发web应用，但不能自学会其它编程语言（python），为啥？
 >部份php程序员过重的着力于web的流程开发，web的MVC框架的学习。没有将php当成一门开发语言来学习，
 >说得严重点，就是编程没有完全学会。
 
-#黄哥PHP培训特色：  
+# 黄哥PHP培训特色：  
 ## 将PHP当一门语言来教学，不是纯写web的工具。
 >1、第一个阶段：训练学员通过学习php学会编程，既讲语法，又重点训练计算思维、编程思路。
             以达到学员自己能动手写代码解决问题，换一种编程语言也能很快上手的目的。
 
 >2、第二个阶段：按照web开发的规律，快速掌握web开发，熟悉一种框架的使用。
 
-# 费用：5000元  培训形式：qq群视频在线直播 课后作业 qq答疑
-#学习周期4个月：每周2次课，每次2小时。
+# 费用：6800元  培训形式：80讲视频+作业训练+项目训练+qq答疑 交费即可参加
+#学习周期6个月：答疑1年。
 #联系方式 qq:1465376564 电话：18610508486 黄老师
 
 
-#授课内容：
-#面向过程的训练
+# 授课内容：
+# 面向过程的训练
 ## PHP 基础语法 PHP Basics Syntax    
 >1、Source Files and PHP Tags  
 2、Newline Characters  
@@ -63,45 +62,45 @@
 2、Iterative Constructs  
 3、Breaking and Continuing  
 
->Namespaces
+>命名空间(Namespaces)  依赖管理（Composer）
 1、Sub-Namespaces  
 2、Using Namespaces  
 3、Aliasing  
 4、Importing Functions and Constants
 
-##函数抽象 Functions
+## 函数抽象 Functions
 >Basic Syntax  
 >Returning Values  
 >Variable Scope  
 
-##字符串和正则表达式 Strings and Patterns  
+## 字符串和正则表达式 Strings and Patterns  
 >String Basics    
 Escaping Literal Values  
 Working with Strings  
 Comparing, Searching and Replacing Strings   Formatting Strings  
 Perl Compatible Regular Expressions  
 
-##数组 Arrays
-###Array Basics
+## 数组 Arrays
+### Array Basics
 >Short Array Syntax  
 Printing Arrays  
 Enumerative vs. Associative   Multi-dimensional Arrays  
 Unravelling Arrays  
 
-##Array Operations
+## Array Operations
 >Comparing Arrays  
 Counting, Searching and Deleting Elements   Flipping and Reversing  
 
-##Array Iteration  
+## Array Iteration  
 >The Array Pointer  
 An Easier Way to Iterate  
 Passive Iteration  
 
-##Sorting Arrays
+## Sorting Arrays
 >Other Sorting Options  
 The Anti-Sort  
 
-##Arrays as Stacks, Queues and Sets  
+## Arrays as Stacks, Queues and Sets  
 >Set Functionality  
 
 ##Dereferencing Arrays
@@ -115,7 +114,7 @@ HTTP Headers
 Sessions  
 Built-in HTTP Server  
 
-#PHP文件处理和网络编程
+# PHP文件处理和网络编程 swoole 异步并发编程
 >目录操作  
 文件操作  
 http协议  
@@ -124,7 +123,7 @@ socket
 curl库和爬虫  
 
 
-#数据库编程 Database Programming
+# 数据库编程 Database Programming
 >数据库介绍 关系数据库  NOSQL数据库介绍  
 >设计和创建数据库（mysql）  
 >存储和检索数据  
@@ -136,7 +135,7 @@ curl库和爬虫
 >redis 简介  
 
 
-#Data Formats and Types
+# Data Formats and Types
 >JSON 180 Dates and Times  
 Extensible Markup Language (XML)  
 ##SimpleXML
@@ -145,8 +144,8 @@ Extensible Markup Language (XML)
 XPath Queries  
 Modifying XML Documents  
 
-#面向对象的训练
-#Object-Oriented Programming in PHP
+# 面向对象的训练
+# Object-Oriented Programming in PHP
 > 面向对象编程的理论  
 >定义类  
 创建对象  
@@ -165,21 +164,21 @@ traits
 类型提示  
 命名空间  
 
-#设计模式  
+# 设计模式  
 >Design Pattern Theory  
 The Singleton Pattern  
 The Factory Pattern  
 The Registry Pattern  
 The Model-View-Controller Pattern
 
-#PHP标准库 (SPL)  
+# PHP标准库 (SPL)  
 
 
-#错误和异常 Errors and Exceptions
+# 错误和异常 Errors and Exceptions
 >PHP Errors and Error Managemen   Exceptions  
 
 
-#安全 Security
+# 安全 Security
 >Concepts and Practices  
 Password Security  
 Website Security  
@@ -190,8 +189,8 @@ Shared Hosting
 
 
 
-#调试、测试、测试驱动开发  
-##调试  
+# 调试、测试、测试驱动开发  
+## 调试  
 >安装Xdebug  
 使用Xdebug
 ##测试  
@@ -200,12 +199,12 @@ Shared Hosting
 创建测试用例  
 运行测试  
 建立测试  
-##测试驱动开发  
+## 测试驱动开发  
 
-#基于文本的blog系统
-#面向对象cms系统实例
+# 基于文本的blog系统
+# 面向对象cms系统实例
 
 # Laravel 5 框架学习
 
-#需求分析和版本控制(git)
-#restful api 的开发
+# 需求分析和版本控制(git)
+# restful api 的开发
