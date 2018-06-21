@@ -1,5 +1,9 @@
 #黄哥python培训试看视频播放地址
 
+[高清晰度播放地址](https://space.bilibili.com/50009562)
+
+
+
 [黄哥python远程视频培训班] (https://github.com/pythonpeixun/article/blob/master/index.md)
 
 [黄哥python培训_python编程思路之四](http://www.tudou.com/programs/view/Z4IClY5Wj-g/)
