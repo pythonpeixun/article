@@ -1,4 +1,4 @@
-#黄哥python培训试看视频播放地址
+# 黄哥python培训试看视频播放地址
 
 [高清晰度播放地址](https://space.bilibili.com/50009562)
 
