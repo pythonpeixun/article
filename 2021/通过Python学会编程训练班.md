@@ -79,8 +79,11 @@ Textbook : 《**How to Think Like a Computer Scientist: Learning with Python 3**
 咨询qq:1465376564
 
 试看视频
+
 https://www.ixigua.com/6796493204129579533/
+
 https://www.ixigua.com/6798762208579813891/
+
 https://www.ixigua.com/6804611724319130125/
 
 [如何训练自己的编程思路](https://github.com/pythonpeixun/article/blob/master/python/how_to_learn_program2.md)
