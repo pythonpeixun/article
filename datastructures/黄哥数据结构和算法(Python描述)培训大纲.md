@@ -20,7 +20,7 @@
     数组[1, 2, 3] ,数字3 输出数组[9, 6, 3]
     5、顺时针螺旋输出二维数组的元素 
 
-![image-20210218205147393](image-20210218205147393.png)
+![image-20210218205147393](https://github.com/pythonpeixun/article/tree/master/datastructures/image-20210218205147393.png)
 
 # 训练目标
 
