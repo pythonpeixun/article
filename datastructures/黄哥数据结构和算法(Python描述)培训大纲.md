@@ -147,6 +147,7 @@
 
 # 培训方式：
 1、每周一、五 晚上腾讯会议共享屏幕上课2小时（ 晚8:00到10点），时间二个月 
+
 2、要积极完成作业。  
 3、费用：6800元。  
 4、TextBook: 《Problem Solving with Algorithms and Data Structures》。  
