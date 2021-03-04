@@ -160,7 +160,7 @@ python默认安装目录在/usr/local/lib/python2.7，终端shell下python -V �
 
 2、[如何通过学习python学会编程](https://github.com/pythonpeixun/article/blob/master/python/how_to_learn_python.md)  
 
-如果你感觉黄哥的文章对你有帮助请打赏，支付宝账号：18610508486@163.com
+
 
 [跟黄哥学习python第二章](learn_python_follow_brother_huang_2.md)
 
