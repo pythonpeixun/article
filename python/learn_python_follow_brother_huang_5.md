@@ -5,8 +5,21 @@
 #顺序结构
 顺序结构的程序设计是最简单的，只要按照解决问题的顺序写出相应的语句就行，它的执行顺序是自上而下，依次执行。    
 通俗一点的说法，就是代码从上到下一行一行的执行。    
-请看下面求圆面积代码，代码中，请注意，乘法的优先级高于乘法，所以乘法放前面后面都可以。    
-![](https://github.com/pythonpeixun/article/tree/master/python/ch5_1.png)
+请看下面求圆面积代码，代码中，请注意，幂运算的优先级高于乘法，所以乘法放前面后面都可以。    
+```
+'''
+python 3 代码演示顺序结构
+'''
+
+PI = 3.14159
+radius = 3
+area1 = PI * radius ** 2
+area2 = radius ** 2 * PI
+print("area = {0}".format(area1))
+print("area = {0}".format(area2))
+# area = 28.27431
+# area = 28.27431
+```
 
 如果只有顺序结构，这样程序的灵活性不够，能解决的问题太少，计算机科学家设计编程语言的时候，设计了可以做选择的判断结构
 和可以反复做一件事儿的循环结构。
@@ -20,16 +33,38 @@
 它们表示两个逻辑常量，True 计算出 True（表示逻辑值“真”），   
 False 计算出 False（表示逻辑值“假”）。   
 
-python中任何对象，在if 语句，while 语句，或逻辑操作符中，都可以检测出真假值。   
+Python中任何对象，在if 语句，while 语句，或逻辑操作符中，都可以检测出真假值。   
 
 下面的值，都会被检测出一个为假的值。   
 None，False，0, 0.0,空字符串'', 空元组(), 空列表[]， 空字典{}。   
 instances of user-defined classes, if the class defines a __bool__() or __len__() method, when that method returns the integer zero or bool value False.   
 除上面的以外，都为真。   
 是真还是假，用bool类检测一下，就知道！    
-![](https://github.com/pythonpeixun/article/tree/master/python/ch5_2.png)
+```
+'''
+逻辑真假值
+'''
+print(bool(None))
+print(bool(0))
+print(bool(0.0))
+print(bool(''))
+print(bool(()))
+print(bool([]))
+print(bool({}))
 
-## 逻辑运算符    
+print(bool('黄哥python培训'))
+
+#False
+#False
+#False
+#False
+#False
+#False
+#False
+#True
+```
+
+## 逻辑运算符 （布尔运算符）   
 
 	Boolean Operations — and, or, not
 	
@@ -70,11 +105,37 @@ instances of user-defined classes, if the class defines a __bool__() or __len__(
 	文档上说了x and y	if x is false, then x, else y。
 
 真值表   
+```
+'''
+演示 and or 的八种组合运算
+'''
 
-![](https://github.com/pythonpeixun/article/tree/master/python/ch5_3.png)
+print("----------------------真值表------------------")
+print("True and True 结果为:{0}".format(True and True))
+print("True and False 结果为:{0}".format(True and False))
+print("False and True 结果为:{0}".format(False and True))
+print("False and False 结果为:{0}".format(False and False))
+print("True or True 结果为:{0}".format(True or True))
+print("True or False 结果为:{0}".format(True or False))
+print("False and True 结果为:{0}".format(False and True))
+print("False and False 结果为:{0}".format(False and False))
+print("----------------------over------------------")
+
+# ----------------------真值表------------------
+# True and True 结果为:True
+# True and False 结果为:False
+# False and True 结果为:False
+# False and False 结果为:False
+# True or True 结果为:True
+# True or False 结果为:True
+# False and True 结果为:False
+# False and False 结果为:False
+# ----------------------over------------------
+```
 
 ## 关系运算符(也称比较运算符)    
 
+	in, not in, is, is not, <, <=, >, >=, !=, ==
 	运算符	含义
 	<	小于
 	<=	小于等于
@@ -84,7 +145,8 @@ instances of user-defined classes, if the class defines a __bool__() or __len__(
 	!=	不想等
 	is	是不是同一个对象
 	is not	negated object identity
-	
+	in 在
+	not in 不在
 	x < y < z 想当于 x < y and y < z
 	关系运算符的结果有一个真假值。
 	>>> 3 < 4
@@ -93,12 +155,33 @@ instances of user-defined classes, if the class defines a __bool__() or __len__(
 	False
 
 
-## 运算符的结合和优先级   
+## 运算符优先级   
 前面学习的算术运算符，逻辑运算符， 关系运算符可以结合起来，组成表达式。    
 表达式可以为变量赋值，也可以作为if 语句，while 语句后面的布尔表达式使用，所谓的条件判断。    
-下面的图片，展示了python所有的运算符的优先级，从上往下优先级热来热高，同一个行运算符从左到右运算（除乘方外）。   
-乘方是从右往左计算。   
-![](https://github.com/pythonpeixun/article/tree/master/python/ch5_4.png)
+下表对 Python 中运算符的优先顺序进行了总结，从最低优先级（最后绑定）到最高优先级（最先绑定）。 相同单元格内的运算符具有相同优先级。 除非句法显式地给出，否则运算符均指二元运算。 相同单元格内的运算符均从左至右分组（除了幂运算是从右至左分组）。
+请注意比较、成员检测和标识号检测均为相同优先级，并具有如 比较运算 一节所描述的从左至右串连特性。
+
+
+| 运算符                                                       | 描述                                                         |
+| :----------------------------------------------------------- | :----------------------------------------------------------- |
+| :=                                                           | 赋值表达式                                                   |
+| [`lambda`](https://docs.python.org/zh-cn/3/reference/expressions.html#lambda) | lambda 表达式                                                |
+| [`if`](https://docs.python.org/zh-cn/3/reference/expressions.html#if-expr) -- `else` | 条件表达式                                                   |
+| [`or`](https://docs.python.org/zh-cn/3/reference/expressions.html#or) | 布尔逻辑或 OR                                                |
+| [`and`](https://docs.python.org/zh-cn/3/reference/expressions.html#and) | 布尔逻辑与 AND                                               |
+| [`not`](https://docs.python.org/zh-cn/3/reference/expressions.html#not) `x` | 布尔逻辑非 NOT                                               |
+| [`in`](https://docs.python.org/zh-cn/3/reference/expressions.html#in), [`not in`](https://docs.python.org/zh-cn/3/reference/expressions.html#not-in), [`is`](https://docs.python.org/zh-cn/3/reference/expressions.html#is), [`is not`](https://docs.python.org/zh-cn/3/reference/expressions.html#is-not), `<`, `<=`, `>`, `>=`, `!=`, `==` | 比较运算，包括成员检测和标识号检测                           |
+| `|`                                                          | 按位或 OR                                                    |
+| `^`                                                          | 按位异或 XOR                                                 |
+| `&`                                                          | 按位与 AND                                                   |
+| `<<`, `>>`                                                   | 移位                                                         |
+| `+`, `-`                                                     | 加和减                                                       |
+| `*`, `@`, `/`, `//`, `%`                                     | 乘，矩阵乘，除，整除，取余 [5](https://docs.python.org/zh-cn/3/reference/expressions.html#id21) |
+| `+x`, `-x`, `~x`                                             | 正，负，按位非 NOT                                           |
+| `**`                                                         | 乘方 [6](https://docs.python.org/zh-cn/3/reference/expressions.html#id22) |
+| [`await`](https://docs.python.org/zh-cn/3/reference/expressions.html#await) `x` | await 表达式                                                 |
+| `x[index]`, `x[index:index]`, `x(arguments...)`, `x.attribute` | 抽取，切片，调用，属性引用                                   |
+| `(expressions...)`,`[expressions...]`, `{key: value...}`, `{expressions...}` | 绑定或加圆括号的表达式，列表显示，字典显示，集合显示         |
 
 
 请看一面表达式。
@@ -152,7 +235,13 @@ if之后的布尔表达式俗称条件，如果它为真，如果为真，则执
 （或称为复合语句）。一般语句块以4个空格为习惯的缩进（相当于c语言的{}）。如果
 语句块暂时不写语句，可以用pass语句暂占位置，pass语句是啥也不做的意思。
 
-![](https://github.com/pythonpeixun/article/tree/master/python/ch5_5.png)
+```
+salary = 9000
+if salary < 10000:
+    print("那是因为你还没有学会编程")
+
+# 那是因为你还没有学会编程
+```
 
 两路分支判断    
 
@@ -162,7 +251,14 @@ if之后的布尔表达式俗称条件，如果它为真，如果为真，则执
 	   语句块    
 
 这个是if 语句后面的条件为真，则执行下面的语句块，否则执行else下面的语句块。
-![](https://github.com/pythonpeixun/article/tree/master/python/ch5_6.png)
+```
+salary = 9000
+if salary > 10000:
+    print("那是因为你还没有学会编程")
+else:
+    print("需要好好通过学习python学会编程")
+#需要好好通过学习python学会编程
+```
 
 多路分支判断    
 
@@ -179,7 +275,20 @@ if之后的布尔表达式俗称条件，如果它为真，如果为真，则执
 如果if 语句后面条件为假，就不执行if下面的语句块,转到elif 判断，如果有一个elif    
 后面的条件为真，则执行下面的语句，执行完，就跳出判断结构，继续下面的语句执行。
 如果if elif 语句后面的条件都为假，则执行else 下面的语句块。
-![](https://github.com/pythonpeixun/article/tree/master/python/ch5_7.png)
+```
+score = float(input("请输入你的分数:\n"))
+if 60 <= score < 70.0:
+    print("及格")
+elif 70.0 < score <= 80.0:
+    print("一般")
+elif 80.0 < score <= 90.0:
+    print("优秀")
+elif score > 90.0:
+    print("超级棒")
+else:
+    print("不及格")
+
+```
 
 代码解释：上图中，第三行代码,input()函数为python内置函数，直接可以调用，
 input()函数可以传递一个参数，一般是传递字符串，提示输入信息。input作用是
@@ -200,7 +309,22 @@ if 或 if-else 语句中可以是任意语句，当然也可以是if或if-else�
 	   else:
 	       语句块
 
-![](https://github.com/pythonpeixun/article/tree/master/python/ch5_8.png)
+```
+x = 3
+y = 5
+
+if x == y:
+    print("x 等于 y")
+else:
+    if x < y:
+        print("x 小于 y")
+    else:
+        print("x 等于 y")
+
+
+# x 小于 y
+
+```
 
 
 # 判断结构实例：    
@@ -212,7 +336,29 @@ if 或 if-else 语句中可以是任意语句，当然也可以是if或if-else�
 	year % 4 == 0 and year % 100 != 0 or year % 400 == 0     
 	前面说过，关系运算符优先逻辑运算符，逻辑运算符and优先or,所以可以写成上面的表达式。     
 	为了清晰，可以写成(year % 4 == 0 and year % 100 != 0) or (year % 400 == 0)     
-![](https://github.com/pythonpeixun/article/tree/master/python/ch5_9.png)
+```
+# User enters the year
+year = int(input("Enter Year: "))
+
+# Leap Year Check
+if year % 4 == 0 and year % 100 != 0:
+    print(year, "is a Leap Year")
+elif year % 100 == 0:
+    print(year, "is not a Leap Year")
+elif year % 400 ==0:
+    print(year, "is a Leap Year")
+else:
+    print(year, "is not a Leap Year")
+
+
+year = int(input("请输入年份:\n"))
+
+if year % 4 == 0 and year % 100 != 0 or year % 400 == 0:
+    print("{0}年是闰年".format(year))
+else:
+    print("{0}年不是闰年".format(year))
+
+```
 
 
 # 习题：
