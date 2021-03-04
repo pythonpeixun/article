@@ -64,7 +64,7 @@ print(bool('黄哥python培训'))
 #True
 ```
 
-## 逻辑运算符 （布尔运算符）   
+## 逻辑运算符 （布尔运算符)
 
 	Boolean Operations — and, or, not
 	
@@ -350,6 +350,7 @@ elif year % 400 ==0:
 else:
     print(year, "is not a Leap Year")
 
+# 上面的多个分支可以修改为一个表达式
 
 year = int(input("请输入年份:\n"))
 
