@@ -29,7 +29,7 @@ print("area = {0}".format(area2))
 布尔表达式是一个能计算出一个布尔值True或False的表达式。
 
 ## 布尔类型
-布尔类型的类型名是bool类，这个类型只有两个字面量 True 和 False（注意大小写形式），   
+布尔类型的类型名是bool类，这个类型只有两个[常量](https://www.python.org/dev/peps/pep-0285/) True 和 False（注意大小写形式），   
 它们表示两个逻辑常量，True 计算出 True（表示逻辑值“真”），   
 False 计算出 False（表示逻辑值“假”）。   
 
